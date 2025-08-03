@@ -1952,3 +1952,69 @@ input#search-nav {
     font-size: 16px;
     line-height: 1.4;
 }
+
+section.recrutamento {
+    color: #f0f0f5;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background-color: #051720;
+    padding: 60px;
+    border: 2px solid #214556;
+}
+
+.recrutamento-funções {
+    background-color: #08202c;
+    border-left: 5px solid #1997d3;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+}
+
+.recrutamento-funções:hover {
+    background-color: #214556 !important;
+}
+
+h3 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+strong {
+    color: #ffffff;
+}
+
+.discord-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #5865f2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s;
+    margin-top: 20px;
+}
+
+.discord-btn:hover {
+    background-color: #4752c4;
+}
+
+.discord-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+.center {
+    text-align: center;
+}
