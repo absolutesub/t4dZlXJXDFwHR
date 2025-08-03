@@ -850,16 +850,20 @@ tr.linha-resolucao:after {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(0 0 0 / 70%);
+    background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(5 23 32));
 }
 
 .share-popup-content {
-    background-color: #214556;
-    margin: 15% auto;
+    background-color: #08202c;
     padding: 30px;
-    max-width: 500px;
+    width: 500px;
     color: white;
-    border: 3px solid #08202c;
+    border: 3px solid #214556;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
 }
 
 .close-popup {
@@ -876,9 +880,10 @@ tr.linha-resolucao:after {
 #share-link {
     flex-grow: 1;
     padding: 8px;
-    border: 1px solid #444;
-    background-color: #2e2e2e;
+    border: 1px solid #236283;
+    background-color: #214556;
     color: white;
+    margin: 0;
 }
 
 #copy-link {
@@ -1408,8 +1413,12 @@ a#anime-site-oficial:hover {
     }
 
     .anime-title-overlay {
-    font-size: 12px !important;
-}
+        font-size: 12px !important;
+    }
+
+    .share-popup-content {
+        width: 90% !important;
+    }
 }
 
 .pagination {
