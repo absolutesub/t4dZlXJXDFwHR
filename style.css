@@ -459,7 +459,6 @@ p#anime-adicionado-em {
 
 strong {
     font-weight: 600;
-    font-size: 14px;
 }
 
 .com {
@@ -1899,4 +1898,57 @@ img.profile {
 
 input#search-nav {
     margin: 0;
+}
+
+.perfil-card {
+    background-color: #051720;
+    padding: 20px;
+    border: 2px solid #214556;
+    border-top: none !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.card {
+    width: 300px;
+    color: white;
+    position: relative;
+}
+
+.card-top {
+    background-color: #ffffff00;
+    height: 60px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid #08202c;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #214556;
+    background-color: white;
+    z-index: 10;
+}
+
+.card-content {
+    padding: 80px 20px 30px;
+    text-align: center;
+    background-color: #214556;
+}
+
+.card-content h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.card-content p {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.4;
 }
