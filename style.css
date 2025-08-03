@@ -1,0 +1,1893 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #092635;
+    color: #ffffff;
+    height: 100%;
+    background-image: url('img/assets/bg.jpg');
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ff66c4;
+}
+
+#search {
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+#filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #103142;
+}
+
+#filters select {
+    padding: 10px;
+    border: 1px solid #214556;
+    border-radius: 0px;
+    background-color: #08202c;
+    color: #ffff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 -960 960 960' width='24px' fill='%23FFFFFF'><path d='M480-373.85 303.85-550h352.3L480-373.85Z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+    padding-right: 30px;
+}
+
+#anime-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #051720;
+}
+
+main {
+    max-width: 950px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+    font-size: 0.8em;
+    color: #3b3b3b;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #051116;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Estilos do Cabeçalho (Header) --- */
+.main-header {
+    background-color: #e0e0e0;
+    /* Cor de fundo escura, semelhante à imagem */
+    color: #000000;
+    position: relative;
+    font-weight: 600;
+    /* Para posicionar elementos internos se necessário */
+}
+
+.main-header .w-100 {
+    /* Estilo para a imagem de topo, se ainda usar */
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.navbar-container {
+    background-color: #08202c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #214556;
+    height: 60px;
+    padding-right: 30px;
+}
+
+.main-nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav ul li a {
+    height: 30px;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.svg-icon-header {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav ul li a:hover {
+    background-color: rgb(5 23 32);
+}
+
+/* Navegação Principal */
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Para alinhar os itens do menu horizontalmente */
+}
+
+.main-nav ul li {
+    position: relative;
+    /* Necessário para posicionar o dropdown */
+}
+
+.main-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 0.95em;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+    /* Impede quebra de linha */
+}
+
+.dropdown-content a:hover {
+    color: #ffffff;
+    background-color: #1997d3 !important;
+}
+
+.main-nav ul li a i {
+    /* Ícones dentro dos links */
+    margin-right: 8px;
+    color: #000000;
+    /* Cor padrão do ícone */
+    transition: color 0.3s ease;
+}
+
+.main-nav ul li a:hover i {
+    color: #3855E5;
+    /* Cor do ícone ao passar o mouse */
+}
+
+/* Dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #08202c;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    border-radius: 0 0 5px 5px;
+    border-top: 2px solid #1997d3;
+}
+
+.dropdown-content a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: normal;
+    /* Sobrescreve o bold do link pai */
+    font-size: 0.9em;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #3855E5;
+    /* Cor de fundo ao passar o mouse no item do dropdown */
+    color: #fff;
+}
+
+/* Ícone de seta para baixo no dropdown */
+.dropbtn .fa-caret-down {
+    margin-left: 5px;
+    font-size: 0.8em;
+}
+
+/* Barra de Pesquisa dentro da Navegação */
+.search-bar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar-nav input#search-nav {
+    padding: 13px 15px;
+    border: 1px solid #214556;
+    background-color: #051720;
+    color: #ffffff;
+    width: 200px;
+    transition: width 0.3s ease;
+    border-radius: 0 !important;
+}
+
+.search-bar-nav input#search-nav:focus {
+    width: 250px;
+    outline: none;
+    border-color: #214556;
+    border-radius: 0 !important;
+}
+
+.search-bar-nav button#search-button-nav {
+    background-color: #214556;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    display: flex;
+    height: 44px;
+    border-radius: 0 !important;
+}
+
+.search-bar-nav input#search-nav,
+.search-bar-nav button#search-button-nav {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0 !important;
+}
+
+.search-bar-nav input#search-nav,
+.search-bar-nav button#search-button-nav {
+    box-sizing: border-box;
+    height: 44px;
+    line-height: normal;
+}
+
+.search-bar-nav svg {
+    width: 40px;
+    /* ou o tamanho que quiser */
+    height: 40px;
+}
+
+.search-bar-nav button#search-button-nav:hover {
+    background-color: rgb(14, 56, 77);
+}
+
+.search-bar-nav svg {
+    width: 32px;
+    height: 32px;
+}
+
+button#search-button-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anime-details-header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 15px 25px;
+    background-color: #051720;
+}
+
+.container-footer-main {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .anime-details-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .anime-image-container {
+        text-align: center;
+        max-width: 280px;
+    }
+
+    img#anime-imagem {
+        height: 100% !important;
+        width: 100%;
+    }
+
+    .share-comments-buttons {
+        justify-content: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .share-button-container {
+        width: 100%;
+    }
+
+    .share-container {
+        width: 100%;
+    }
+
+    .share-button {
+        width: 100%;
+        justify-content: center;
+        padding: 7px 0px !important;
+    }
+
+    .action-button {
+        width: 100%;
+        justify-content: center;
+        padding: 7px 0px !important;
+    }
+
+    .comment-button-container {
+        width: 100%;
+    }
+
+    .media-sections {
+        flex-direction: column !important;
+    }
+
+    .label-servidor {
+        font-size: 13px;
+        padding-right: 10px !important;
+    }
+
+    .linha-downloads {
+        padding: 0px 10px !important;
+    }
+
+    #anime-list {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 0px !important;
+        padding: 10px !important;
+    }
+
+    .container-sub {
+        width: 100% !important;
+        margin-top: 30px;
+        border-top: 2px solid #214556;
+    }
+
+    .letter-filter {
+        padding: 20px !important;
+        gap: 2px !important;
+    }
+
+    .site-footer {
+        display: none;
+    }
+
+    .site-footer.f-mob {
+        display: block !important;
+    }
+
+    div#footer {
+        display: none;
+    }
+
+    .search-bar-nav {
+        width: 100% !important;
+    }
+
+    .search-bar-nav input#search-nav {
+        width: 100% !important;
+    }
+
+    .anime-info-text {
+        margin-top: 30px;
+    }
+}
+
+tbody {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    position: relative;
+    /* necessário para o ::after */
+}
+
+tr::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom,
+            transparent 0%,
+            #214556 30%,
+            #214556 70%,
+            transparent 100%);
+    pointer-events: none;
+}
+
+table {
+    width: 100%;
+    width: 100%;
+    border: 3px solid #214556;
+}
+
+.details-table {
+    background-color: #08202c;
+    margin: 20px 0px;
+}
+
+.anime-info-text {
+    width: 100%;
+}
+
+img#anime-imagem {
+    height: 366px;
+    border: 5px solid #214556;
+    box-sizing: border-box;
+}
+
+p#anime-adicionado-em {
+    text-align: right;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+
+strong {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.com {
+    color: #ffffffbf;
+    font-size: 14px;
+}
+
+.media-sections {
+    display: flex;
+    flex-direction: row;
+}
+
+img#screenshot-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+
+img#screenshot-image {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.media-sections {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: #051720;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.container-infs {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container-sub {
+    width: 330px;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 560px;
+    /* ou 100% se quiser responsivo total */
+    aspect-ratio: 16 / 9;
+    /* mantém proporção */
+    position: relative;
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+.carousel {
+    background-color: #092635;
+}
+
+.media-title {
+    background-color: #092635;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #236283;
+    margin: 0;
+}
+
+.media-item {
+    width: 100%;
+    border: 5px solid #214556;
+    box-sizing: border-box;
+}
+
+.media-icon {
+    height: 100%;
+    display: flex;
+}
+
+p#anime-adicionado-em {
+    margin-top: 40px;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
+
+.title-an {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #214556;
+    padding: 5px 7px 7px 5px;
+    border-bottom: 6px solid #08202c;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.anime-extra-details {
+    padding: 0px 20px;
+    border-left: 2px solid #214556;
+}
+
+tr.linha-resolucao:after {
+    background: none !important;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 30px;
+    height: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.hamburger span {
+    height: 3px;
+    background: white;
+    width: 100%;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    button#hamburger-btn {
+        width: 55px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-hero {
+        display: none;
+    }
+
+    .img-header-mob {
+        display: block;
+    }
+
+    .container {
+        padding: 0 !important;
+    }
+
+    .navbar-container {
+        flex-direction: row-reverse;
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .main-nav {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #111;
+        width: 100%;
+        padding: 1rem;
+        flex-direction: column;
+        gap: 10px;
+        display: none;
+    }
+
+    .main-nav.show {
+        display: flex;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .main-nav ul li {
+        margin: 0;
+        background-color: #08202c;
+    }
+
+    .main-nav a {
+        display: block;
+        padding: 0.5rem 0;
+        font-size: 18px;
+    }
+
+    #mobile-nav {
+        transform-origin: top;
+        transform: scaleX(0);
+        opacity: 0;
+        transition: transform 0.6s ease, opacity 0.5s ease;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        background-color: #214556;
+        padding: 5rem 1rem;
+        box-sizing: border-box;
+        z-index: 1000;
+        display: flex;
+        min-height: 100vh;
+    }
+
+    #mobile-nav.show {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+
+    .dropdown-content {
+        position: inherit;
+    }
+
+    .container-infs {
+        display: block !important;
+    }
+
+    .navbar-container {
+        height: 80px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-header-mob {
+        display: none;
+    }
+
+    div#footer-mob {
+        display: none;
+    }
+}
+
+.bloco-episodio {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.cabecalho {
+    background-color: #214556;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+    background-color: #092635;
+    width: 100%;
+    flex-direction: row;
+}
+
+.botoes a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #1997d3;
+    ;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.botoes a:hover {
+    background-color: #1687bb;
+}
+
+.botoes a svg {
+    width: 16px !important;
+    height: 16px !important;
+    fill: white;
+}
+
+.icone-download>svg {
+    height: 25px;
+    width: 25px;
+}
+
+.icone-download {
+    display: flex;
+}
+
+.episodios-an {
+    background-color: #051720;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.linha-downloads {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #092635;
+    padding: 0px 20px;
+}
+
+.label-servidor {
+    padding-right: 15px;
+    font-weight: 500;
+    position: relative;
+}
+
+.label-servidor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 0%, #214556 30%, #214556 70%, transparent 100%);
+    pointer-events: none;
+}
+
+#popup-compartilhar {
+    position: absolute;
+    background: #1b1b1b;
+    color: white;
+    border: 1px solid #444;
+    padding: 16px;
+    max-width: 300px;
+    margin-top: 10px;
+    z-index: 999;
+}
+
+.share-container {
+    position: relative;
+    display: inline-block;
+}
+
+.share-button {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    padding: 7px 8px;
+    background-color: #214556;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    flex-direction: row-reverse;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    width: 100%;
+    justify-content: center;
+}
+
+.share-button:hover {
+    background-color: #193a49;
+}
+
+.share-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.share-popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 70%);
+}
+
+.share-popup-content {
+    background-color: #214556;
+    margin: 15% auto;
+    padding: 30px;
+    max-width: 500px;
+    color: white;
+    border: 3px solid #08202c;
+}
+
+.close-popup {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.share-link-container {
+    display: flex;
+    margin-top: 15px;
+}
+
+#share-link {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #444;
+    background-color: #2e2e2e;
+    color: white;
+}
+
+#copy-link {
+    padding: 8px 16px;
+    background-color: #236283;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#copy-link:hover {
+    background-color: #1a4f6e;
+}
+
+/* Container do botão */
+.comment-button-container {
+    display: inline-block;
+}
+
+/* Estilo base do botão (igual ao de compartilhamento) */
+.action-button {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    padding: 7px 8px;
+    background-color: #214556;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    flex-direction: row-reverse;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    width: 100%;
+    justify-content: center;
+}
+
+.action-button:hover {
+    background-color: #193a49;
+}
+
+.action-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+/* Estilo da seção de comentários */
+.comments-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.share-comments-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.anime-card {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 0px;
+    transition: transform 0.4s;
+    text-align: center;
+    border: 5px solid #103142;
+}
+
+.anime-card:hover {
+    transform: scale(1.05);
+}
+
+.anime-img-wrapper {
+    position: relative;
+}
+
+.anime-img-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+.anime-title-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.anime-tags {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+}
+
+.anime-tags .tag {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 2px 6px;
+    font-size: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Cores específicas para status */
+.anime-tags .status.completo {
+    background-color: #28a745;
+    /* verde */
+}
+
+.anime-tags .status.em-andamento {
+    background-color: #ffa807;
+}
+
+.anime-tags .status.pausado {
+    background-color: #dc3545;
+}
+
+.anime-tags .resolucao {
+    background-color: #1997d3;
+}
+
+.tag.status.finalizado {
+    background-color: #33c721;
+}
+
+.blocks {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-top: 3px solid #214556;
+}
+
+section {
+    border: 2px solid #214556;
+}
+
+section#filters {
+    border-bottom: 0px !important;
+    border-top: 0px !important;
+}
+
+section.anime-details-header {
+    border-top: 0px !important;
+}
+
+#anime-sinopse {
+    font-size: 14px;
+    font-style: italic;
+    color: #9b9b9b;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.sinopse-container {
+    position: relative;
+    max-height: 4.5em;
+    /* altura padrão da sinopse (3 linhas) */
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+}
+
+.sinopse-container.expandido {
+    max-height: 1000px;
+}
+
+#anime-sinopse {
+    font-size: 14px;
+    font-style: italic;
+    color: #9b9b9b;
+    line-height: 1.5em;
+    margin: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Gradiente no final para dar o efeito de fade */
+.sinopse-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3em;
+    width: 100%;
+    background: linear-gradient(to top, #051720 15%, #00000000 100%);
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
+/* Remove o degradê quando expandido */
+.sinopse-container.expandido::after {
+    opacity: 0;
+}
+
+/* Botão centralizado sobre o degradê */
+#sinopse-toggle {
+    position: absolute;
+    bottom: 0em;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #1998d39f;
+    cursor: pointer;
+    z-index: 2;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+#sinopse-toggle:hover {
+    text-decoration: underline;
+    color: #1997d3;
+}
+
+#sinopse-toggle[data-state="ocultar"] {
+    position: inherit;
+    left: 44%;
+}
+
+.letter-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 20px 120px;
+    justify-content: center;
+    background-color: #051720;
+    border: 2px solid #214556;
+    border-bottom: 0px;
+}
+
+.letter-filter button {
+    background-color: #1c3e4e;
+    border: 1px solid #051720;
+    padding: 10px 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.letter-filter button:hover {
+    background-color: #08202c;
+}
+
+
+.letter-filter button.active {
+    background-color: #444;
+    color: #fff;
+}
+
+.header-hero {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* ajuste a altura conforme o seu layout */
+    overflow: hidden;
+}
+
+.background-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, rgb(190 124 60), rgba(20, 52, 230, 0.678), rgb(55 66 69 / 47%)), url(img/assets/absolute-banner.jpg);
+    background-size: 600% 600%, cover;
+    background-position: 0% 50%, center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+
+    animation: degradeAnim 30s ease infinite;
+    z-index: 1;
+}
+
+.logo-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    pointer-events: none;
+}
+
+@keyframes degradeAnim {
+    0% {
+        background-position: 0% 50%, center;
+    }
+
+    50% {
+        background-position: 100% 50%, center;
+    }
+
+    100% {
+        background-position: 0% 50%, center;
+    }
+}
+
+.container-sub-section {
+    padding: 15px 25px;
+    background-color: #051720;
+    border-top: none;
+}
+
+.title-parceiros {
+    margin-top: 0 !important;
+    margin-bottom: 15px;
+    background-color: #214556;
+    padding: 5px;
+    border-bottom: 6px solid #08202c;
+    text-align: center;
+}
+
+.icon-parceiros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.site-footer {
+    color: #ffffff;
+    text-align: center;
+    background-color: #051720;
+    padding: 20px;
+    border: 2px solid #214556;
+    margin-top: 20px;
+}
+
+.site-footer .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.site-footer a.license-link {
+    color: #1997d3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-footer a.license-link:hover {
+    text-decoration: underline;
+}
+
+.license-icons {
+    margin-top: 10px;
+}
+
+.license-icons img {
+    height: 32px;
+    margin: 0 3px;
+    vertical-align: middle;
+}
+
+p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.logo-footer {
+    height: 100px;
+}
+
+a#anime-site-oficial {
+    color: #1997d3;
+}
+
+a#anime-site-oficial:hover {
+    color: #1687bb;
+}
+
+.close-menu {
+    position: absolute;
+    padding: 8px 10px;
+    top: 23px;
+    background-color: #08202c !important;
+    right: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+.main-nav.show .close-menu {
+    display: block !important;
+}
+
+.post-container {
+    padding: 20px;
+    background-color: #051720;
+    border: 2px solid #214556;
+    margin-bottom: 20px;
+    border-top: none;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.post-card {
+    background: #08202c;
+    border: 2px solid #214556;
+}
+
+.post-grid {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.post-thumbnail {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    max-width: 350px;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.quality-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: orange;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.post-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post-title {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+}
+
+.post-meta {
+    font-size: 0.8rem;
+    display: flex;
+    gap: 1rem;
+    height: 16px;
+    color: #a3a3a3;
+}
+
+.post-date {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.post-author {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.post-summary {
+    margin: 0px 0px 10px 0px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.download-button {
+    display: inline-block;
+    background: #1997d3;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    align-self: flex-start;
+    transition: background 0.2s;
+    font-size: 14px;
+}
+
+.download-button:hover {
+    background: #1687bb;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .post-grid {
+        flex-direction: column;
+    }
+
+    .post-thumbnail {
+        flex: none;
+        width: 100%;
+        max-width: none;
+    }
+
+    .anime-tags {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .anime-title-overlay {
+    font-size: 12px !important;
+}
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 20px;
+}
+
+.pagination-btn {
+    background: #08202c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+
+.pagination-btn:hover {
+    background: #214556;
+    ;
+}
+
+.pagination-btn.active {
+    background: #214556;
+    ;
+    font-weight: 600;
+}
+
+#sidebar-wrapper h2 span {
+    color: #fff;
+    position: relative;
+    background-color: #214556;
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    line-height: 31px;
+    height: 30px;
+    font-size: 19px;
+    padding: 5px 20px;
+}
+
+#sidebar-wrapper h2 span:before {
+    left: 100%;
+    top: 0;
+    position: absolute;
+    content: " ";
+    border-bottom: 40px solid #214556;
+    border-right: 20px solid transparent;
+}
+
+#sidebar-wrapper h2 span:after {
+    left: 100%;
+    top: 0;
+    position: absolute;
+    content: " ";
+    border-bottom: 40px solid #214556;
+    border-right: 20px solid #21455600;
+}
+
+.project-item {
+    background-color: #08202c;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.project-item h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #eee;
+}
+
+/* Container do título do projeto */
+.project-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+/* Texto do título */
+.project-title {
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Ícone de progresso */
+.progress-icon {
+    display: flex;
+}
+
+.progress-icon svg {
+    height: 20px;
+    fill: #1997d3;
+}
+
+/* Barra de progresso */
+.progress-bar-container {
+    width: 100%;
+    background-color: #214556;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #1997d3;
+    width: 0%;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-size: 13px;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Link do projeto */
+.project-link {
+    display: inline-block;
+    color: #1997d3;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #1687bb;
+}
+
+.project-title-container p {
+    margin: 0 !important;
+    font-weight: 600;
+}
+
+.project-cover-image {
+    width: 100%;
+    /* Ocupa a largura total disponível dentro do container */
+    max-height: 50px;
+    /* Limita a altura inicial para mostrar apenas um terço (ajuste esse valor conforme a altura original da sua imagem e o terço que você quer exibir) */
+    object-fit: cover;
+    /* Garante que a imagem cubra a área definida sem distorcer, cortando as partes que excedem */
+    border-radius: 4px;
+    /* Mantém as bordas arredondadas, se desejar */
+    margin-bottom: 10px;
+    /* Espaço abaixo da imagem */
+    display: block;
+    /* Garante que a imagem se comporte como um bloco */
+    margin-left: auto;
+    /* Centraliza a imagem */
+    margin-right: auto;
+    /* Centraliza a imagem */
+    overflow: hidden;
+    /* **Essencial:** Esconde as partes da imagem que excedem a altura máxima */
+    cursor: pointer;
+
+    /* Propriedades para a transição suave */
+    transition: max-height 0.5s ease-in-out;
+    /* Transição suave na altura máxima */
+}
+
+.project-item:hover .project-cover-image {
+    max-height: 300px;
+    /* Altere para a altura total da sua imagem ou um valor que a mostre por completo */
+    /* Você pode adicionar outras propriedades de transição aqui, se desejar, como transform: scale(1.1); para um leve zoom */
+}
+
+#loading-screen {
+    position: fixed;
+    /* Fixa a posição na tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #051720;
+    /* Fundo semi-transparente branco, ajuste a cor e opacidade se quiser */
+    display: flex;
+    /* Para centralizar o GIF */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    z-index: 9999;
+    /* Garante que fique acima de todo o conteúdo */
+    transition: opacity 0.5s ease-out;
+    /* Adiciona uma transição suave ao desaparecer */
+}
+
+#loading-screen.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+body.loading-active {
+    overflow: hidden;
+    /* Impede o scroll no body */
+
+}
+
+#loading-logo {
+    /* Usamos o ID da sua logo aqui */
+    max-width: 80px;
+    /* Ajuste o tamanho da sua logo conforme necessário */
+    max-height: 80px;
+    /* Certifique-se de que a logo não é muito grande para a animação */
+
+    /* Aplica a animação */
+    animation: bounce 2s infinite alternate ease-in-out;
+    /*
+        bounce: nome da animação que vamos definir
+        2s: duração de uma repetição da animação (2 segundos)
+        infinite: a animação se repete infinitamente
+        alternate: a animação inverte a direção a cada ciclo (vai e volta)
+        ease-in-out: a animação começa e termina suavemente, e acelera no meio
+    */
+}
+
+/* Definição da animação */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+        /* Posição inicial (sem deslocamento vertical) */
+    }
+
+    100% {
+        transform: translateY(-20px);
+        /* Desloca a logo 20px para cima */
+    }
+}
+
+img#post-detail-image {
+    width: 100%;
+}
+
+.post-detail-container {
+    color: #ffffff;
+    text-align: center;
+    background-color: #051720;
+    padding: 20px;
+    border: 2px solid #214556;
+    border-top: 0 !important;
+}
+
+.inf-pmet {
+    display: flex;
+    gap: 8px;
+}
+
+.anime-card2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: left;
+}
+
+.anime-info {
+    width: 100%;
+}
+
+.anime-extra-info {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: 3px solid #4b768b;
+    background-color: #08202c;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+div#related-project-card {
+    padding: 15px;
+    background-color: #214556;
+    margin: 50px;
+}
+
+.btn-acessar {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #1997d3;
+    padding: 2px 10px;
+}
+
+.btn-acessar:hover {
+    background-color: #1687bb;
+}
+
+@media (max-width: 768px) {
+    .anime-card2 {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    div#related-project-card {
+        margin: 30px 0px 0px !important;
+        padding: 15px !important;
+    }
+
+    .btn-acessar {
+        padding: 10px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        text-align: center !important;
+        margin-top: 10px !important;
+    }
+
+    .progress-bar {
+        height: 25px !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .comentario-meta {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 0 !important;
+    }
+
+    img.profile {
+        height: 45px !important;
+        padding-right: 8px !important;
+    }
+
+    .comentario {
+        gap: 10px !important;
+    }
+}
+
+.anime-links a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos do sistema de comentários (mantidos do seu CSS original e ajustados para tema escuro) */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+    color: #f0f0f0;
+}
+
+button {
+    background-color: #1997d3;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.comentario {
+    border: 1px solid #2145568f;
+    padding: 10px;
+    background-color: #08202c;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    margin-top: 10px;
+}
+
+.comentario-meta {
+    font-size: 0.85em;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.resposta {
+    margin-left: 30px;
+    border-left: 3px solid #1997d3;
+    margin-top: 0 !important;
+}
+
+.honeypot {
+    display: none;
+}
+
+.erro-msg {
+    color: #ff6666;
+    /* Vermelho mais claro para tema escuro */
+    font-size: 13px;
+    margin-top: -5px;
+    display: block;
+}
+
+textarea.erro {
+    border: 1px solid #ff6666;
+}
+
+div#listaComentarios {
+    margin-top: 15px;
+}
+
+.reply-button {
+    background: #008CBA;
+    /* Azul para o botão de responder */
+    padding: 5px 10px;
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+
+.reply-form-container {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #214556;
+}
+
+.cancel-reply-button {
+    background: #08202c;
+    /* Vermelho para o botão de cancelar */
+    padding: 5px 10px;
+    font-size: 0.8em;
+}
+
+section#secaoComentarios {
+    background-color: #051720;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #08202c;
+    border: 1px solid #214556;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif !important;
+    resize: none;
+    outline: none;
+}
+
+textarea:focus {
+    border: 1px solid #214556;
+    /* borda azul ao focar */
+}
+
+img.profile {
+    height: 60px;
+    width: auto;
+    padding-right: 13px;
+    border-right: 2px solid #2145568f;
+}
+
+.responderBtn {
+    background: transparent;
+    color: #1997d3;
+    border: none;
+    padding: 0;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.responderBtn:hover {
+    text-decoration: underline;
+}
+
+input#search-nav {
+    margin: 0;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Fansub - Animes legendados</title>
+    <link rel="icon" href="img/assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="/js/loadHeader.js" defer></script>
+</head>
+
+<body>
+    <div id="loading-screen">
+        <img src="img/assets/loadinglogo.png" alt="" id="loading-logo">
+    </div>
+    <div class="os-container">
+        <div class="container">
+            <div id="header-placeholder"></div>
+            <div class="container-infs">
+                <div class="container-footer-main">
+                    <main>
+                        <div id="sidebar-wrapper" style="
+    background-color: #214556;
+">
+                            <h2 style="margin: 0;display: flex;justify-content: center;"><span
+                                    style="display: flex;align-items: center;gap: 2px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                        width="24px" fill="#FFFFFF" style="
+    width: 23px;
+">
+                                        <path
+                                            d="m480-256.16 146.15-146.15L584-444.46l-74 74v-178h-60v178l-74-74-42.15 42.15L480-256.16ZM200-643.85v431.54q0 5.39 3.46 8.85t8.85 3.46h535.38q5.39 0 8.85-3.46t3.46-8.85v-431.54H200ZM215.39-140q-29.93 0-52.66-22.73Q140-185.46 140-215.39v-464.38q0-12.84 4.12-24.5 4.11-11.65 12.34-21.5l56.16-67.92q9.84-12.85 24.61-19.58Q252-820 268.46-820h422.31q16.46 0 31.42 6.73T747-793.69L803.54-725q8.23 9.85 12.34 21.69 4.12 11.85 4.12 24.7v463.22q0 29.93-22.73 52.66Q774.54-140 744.61-140H215.39Zm.23-563.84H744l-43.62-51.93q-1.92-1.92-4.42-3.08-2.5-1.15-5.19-1.15H268.85q-2.69 0-5.2 1.15-2.5 1.16-4.42 3.08l-43.61 51.93ZM480-421.92Z">
+                                        </path>
+                                    </svg>Nossos projetos</span></h2>
+                        </div>
+                        <div id="letter-filter" class="letter-filter">
+                            <button data-letter="all" class="letter-button active">ALL</button>
+                            <button data-letter="#">#</button>
+                            <button data-letter="A">A</button>
+                            <button data-letter="B">B</button>
+                            <button data-letter="C">C</button>
+                            <button data-letter="D">D</button>
+                            <button data-letter="E">E</button>
+                            <button data-letter="F">F</button>
+                            <button data-letter="G">G</button>
+                            <button data-letter="H">H</button>
+                            <button data-letter="I">I</button>
+                            <button data-letter="J">J</button>
+                            <button data-letter="K">K</button>
+                            <button data-letter="L">L</button>
+                            <button data-letter="M">M</button>
+                            <button data-letter="N">N</button>
+                            <button data-letter="O">O</button>
+                            <button data-letter="P">P</button>
+                            <button data-letter="Q">Q</button>
+                            <button data-letter="R">R</button>
+                            <button data-letter="S">S</button>
+                            <button data-letter="T">T</button>
+                            <button data-letter="U">U</button>
+                            <button data-letter="V">V</button>
+                            <button data-letter="W">W</button>
+                            <button data-letter="X">X</button>
+                            <button data-letter="Y">Y</button>
+                            <button data-letter="Z">Z</button>
+                        </div>
+                        <section id="filters">
+                            <select id="filter-status">
+                                <option value="">Todos os status</option>
+                                <option value="Finalizado">Finalizado</option>
+                                <option value="Em andamento">Em andamento</option>
+                            </select>
+                            <select id="filter-genero">
+                                <option value="">Todos os gêneros</option>
+                            </select>
+                        </section>
+
+                        <section id="anime-list"></section>
+                    </main>
+                    <div id="footer"></div>
+                </div>
+                <div id="container-sub"></div>
+                <div id="footer-mob"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/loading.js"></script>
+    <script src="data.js"></script>
+    <script src="js/filterAn.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/contSub.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/menuHam.js"></script>
+    <script src="js/cardsAn.js"></script>
+    <script src="js/projectLoader.js"></script>
+</body>
+
+</html>

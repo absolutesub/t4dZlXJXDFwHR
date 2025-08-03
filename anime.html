@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="icon" href="img/assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="loading-screen">
+        <img src="img/assets/loadinglogo.png" alt="" id="loading-logo">
+    </div>
+    <div class="os-container">
+        <div class="container">
+            <div id="header-placeholder"></div>
+            <div class="container-infs">
+                <div class="container-footer-main">
+                    <main>
+                        <section class="anime-details-header">
+                            <div class="anime-image-container">
+                                <img id="anime-imagem" src="" alt="Imagem do anime" />
+                                <div class="share-comments-buttons">
+                                    <div class="share-button-container"></div>
+                                    <div class="comment-button-container">
+                                        <a href="#secaoComentarios" id="comment-button" class="action-button">
+                                            <span>Comentar</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                                                viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"
+                                                style="width: 18px;">
+                                                <path
+                                                    d="M860-118.46 718.46-260H172.31Q142-260 121-281q-21-21-21-51.31v-455.38Q100-818 121-839q21-21 51.31-21h615.38Q818-860 839-839q21 21 21 51.31v669.23ZM172.31-320H744l56 55.39v-523.08q0-4.62-3.85-8.46-3.84-3.85-8.46-3.85H172.31q-4.62 0-8.46 3.85-3.85 3.84-3.85 8.46v455.38q0 4.62 3.85 8.46 3.84 3.85 8.46 3.85ZM160-320v-480 480Z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="anime-info-text">
+                                <p class="title-an">
+                                    <span id="anime-titulo">Detalhes do Anime</span>
+                                </p>
+
+                                <div class="anime-extra-details">
+                                    <p><strong>Episódios:</strong> <span id="anime-episodios-total"></span></p>
+                                    <p><strong>Status:</strong> <span id="anime-status-detail"></span></p>
+                                    <p><strong>Gênero:</strong> <span id="anime-genero"></span></p>
+                                    <p><strong>Lançamento:</strong> <span id="anime-lancamento"></span></p>
+                                    <p><strong>Estúdio:</strong> <span id="anime-estudio"></span></p>
+                                    <p><strong>Site Oficial:</strong> <a id="anime-site-oficial" href="#"
+                                            target="_blank" rel="noopener noreferrer">Visitar</a></p>
+                                    <p><strong>Script Original:</strong> <span id="anime-script-original"></span></p>
+                                </div>
+
+                                <!-- Novo bloco com 4 colunas técnicas -->
+                                <div class="details-table">
+                                    <table>
+                                        <tr>
+                                            <td><strong>Vídeo</strong></td>
+                                            <td id="anime-video"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Áudio</strong></td>
+                                            <td id="anime-audio"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Legenda</strong></td>
+                                            <td id="anime-legenda"></td>
+                                        </tr>
+                                        <tr class="linha-resolucao">
+                                            <td><strong>Resolução</strong></td>
+                                            <td id="anime-resolucao"></td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                                <!-- Correção dos gêneros -->
+                                <div id="anime-generos-links" class="genre-tags">
+                                    <!-- será preenchido via JS -->
+                                </div>
+
+                                <div class="sinopse-container">
+                                    <p id="anime-sinopse"></p>
+                                    <span id="sinopse-toggle">mais.</span>
+                                </div>
+                                <p id="anime-adicionado-em"></p>
+                            </div>
+                        </section>
+
+                        <section class="media-sections">
+                            <div class="media-item">
+                                <p class="media-title">
+                                    <span class="media-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                            width="24px" fill="#236283">
+                                            <path
+                                                d="M224.62-160q-27.62 0-46.12-18.5Q160-197 160-224.62v-510.76q0-27.62 18.5-46.12Q197-800 224.62-800h510.76q27.62 0 46.12 18.5Q800-763 800-735.38v510.76q0 27.62-18.5 46.12Q763-160 735.38-160H224.62Zm0-40h510.76q9.24 0 16.93-7.69 7.69-7.69 7.69-16.93v-510.76q0-9.24-7.69-16.93-7.69-7.69-16.93-7.69H224.62q-9.24 0-16.93 7.69-7.69 7.69-7.69 16.93v510.76q0 9.24 7.69 16.93 7.69 7.69 16.93 7.69ZM300-300h366.15L553.08-450.77 448.46-318.46l-70-84.62L300-300ZM200-200v-560 560Zm140-380q16.54 0 28.27-11.73T380-620q0-16.54-11.73-28.27T340-660q-16.54 0-28.27 11.73T300-620q0 16.54 11.73 28.27T340-580Z" />
+                                        </svg>
+                                    </span>
+                                    Screenshots
+                                </p>
+                                <div id="screenshot-carousel" class="carousel">
+                                    <img id="screenshot-image" src="" alt="Screenshot do anime" loading="lazy">
+                                </div>
+                            </div>
+
+                            <div class="media-item">
+                                <p class="media-title">
+                                    <span class="media-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                            width="24px" fill="#236283">
+                                            <path
+                                                d="M597.54-282q-23.16 1-43.42 1.5-20.27.5-36.32.5h-34.63q-59.96 0-112.32-2-45.31-1.23-88.73-3.96-43.43-2.73-63.17-7.83-22.33-5.94-38.64-22.08Q164-332 158.24-354.33q-4.93-19.75-7.66-47.36-2.73-27.62-3.97-53.77-2-29.85-2-61.46 0-31.62 2-61.46 1.24-26.16 3.97-53.77 2.73-27.62 7.82-47.37 5.95-22.32 22.08-38.63 16.14-16.31 38.46-22.07 19.75-4.93 63.18-7.66 43.42-2.74 88.73-3.97 52.31-2 112.23-2 59.91 0 112.23 2 45.31 1.23 88.73 3.97 43.42 2.73 63.17 7.82 22.32 5.95 38.63 22.08 16.31 16.13 22.07 38.46 4.94 19.75 7.67 47.37 2.73 27.61 3.96 53.77 2 30.15 2 61.14V-503q-15.92-7.23-32.83-10.58-16.9-3.34-34.64-3.34-70.15 0-119.8 49.54-49.65 49.54-49.65 119.83 0 17.78 3.23 34.12 3.23 16.35 9.69 31.43ZM415.38-415.38l175.7-101.54-175.7-101.54v203.08ZM720-246.15v-67.7h-67.69v-67.69H720v-67.69h67.69v67.69h67.7v67.69h-67.7v67.7H720Z" />
+                                        </svg>
+                                    </span>
+                                    Trailer
+                                </p>
+                                <div id="trailer-container" class="video-container"></div>
+                            </div>
+                        </section>
+
+                        <section class="comentarios" id="secaoComentarios">
+                            <h2 style="margin: 0px 0px 6px 0px;">Deixe seu comentário</h2>
+                            <form id="comentarioForm">
+                                <textarea name="comentario" placeholder="Digite seu comentário..." rows="4" required
+                                    style="margin-bottom: 0;"></textarea>
+                                <p style="font-weight: 600; margin: 0 0px 6px 0px;">Nome</p>
+                                <input type="text" name="nome" placeholder="Adicionar nome / apelido" required
+                                    style="max-width: 240px;">
+                                <span id="erroComentario" class="erro-msg"></span>
+                                <input type="text" name="fakeEmail" class="honeypot" autocomplete="off"
+                                    style="display: none;">
+                                <button type="submit" style="margin: 20px 0px;">Publicar comentário</button>
+                            </form>
+
+                            <h3 style="padding-bottom: 10px; border-bottom: 1px solid #214556; margin: 0;">Comentários
+                            </h3>
+                            <div id="listaComentarios">Carregando...</div>
+                        </section>
+
+                        <section class="episodios-an">
+                            <h2>Episódios</h2>
+                            <div id="episodios-lista"></div>
+                        </section>
+
+                    </main>
+                    <div id="footer"></div>
+                </div>
+                <div id="container-sub"></div>
+                <div id="footer-mob"></div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="js/loading.js"></script>
+    <script src="data.js"></script>
+    <script src="js/animePag.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/contSub.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/projectLoader.js"></script>
+    <script src="js/commentLogic.js" defer></script>
+</body>
+
+</html>
