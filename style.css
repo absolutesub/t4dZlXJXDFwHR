@@ -1802,15 +1802,15 @@ button {
 }
 
 .toggle-button:hover {
-    background-color: #e5e5e5;
+    background-color: #f1f1f1;
 }
 
 .pix-button:hover {
-    background-color: #e5e5e5;
+    background-color: #f1f1f1;
 }
 
 .donation-btn:hover {
-    background-color: #e5e5e5;
+    background-color: #f1f1f1;
 }
 
 .comentario {
@@ -2205,10 +2205,11 @@ strong {
 .mercado-options a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
     display: block;
     background-color: #1997d3;
     border: 1px solid #214556;
+    padding: 5px;
 }
 
 .mercado-options a:hover {
