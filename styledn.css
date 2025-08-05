@@ -1,0 +1,25 @@
+.dn {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .dn {
+        display: block !important;
+    }
+
+    .pix-section {
+        display: block !important;
+    }
+
+    .pix-link {
+        display: none !important;
+    }
+
+    .mercado-options {
+        display: grid !important;
+    }
+
+    .image-donate.donation-toggle-section.hide-on-mercado {
+        display: block !important;
+    }
+}

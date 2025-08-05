@@ -17,11 +17,11 @@
     <link rel="icon" href="img/assets/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styledn.css">
     <link rel="canonical" href="index.html">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <script src="/js/loadHeader.js" defer></script>
     <meta name="description"
         content="Fansub dedicada a animes legendados. Baixe ou assista online seus títulos favoritos com qualidade e rapidez.">
     <meta property="og:title" content="Absolute Fansub - Animes legendados">
@@ -50,6 +50,65 @@
             <div class="container-infs">
                 <div class="container-footer-main">
                     <main>
+                        <section class="home-i">
+                            <section class="banner-section">
+                                <div id="banners" class="banner-wrapper"></div>
+
+                                <div class="banner-controls">
+                                    <button class="prev-banner">&#10094;</button>
+                                    <div class="progress-bar-banner">
+                                        <div class="progress-fill"></div>
+                                    </div>
+                                    <button class="next-banner">&#10095;</button>
+                                </div>
+                            </section>
+                            <div class="donation-section">
+                                <h3 class="title-parceiros">Faça uma doação</h3>
+
+                                <div class="donation-buttons">
+                                    <!-- PicPay -->
+                                    <button class="donation-btn donation-toggle-section"
+                                        onclick="window.open('https://picpay.me/erick.vrio', '_blank')">
+                                        <img src="img/assets/picpay.webp" alt="PicPay">
+                                    </button>
+
+                                    <!-- PayPal -->
+                                    <button class="donation-btn donation-toggle-section"
+                                        onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5ZX8V4R7LCGWJ', '_blank')">
+                                        <img src="https://sakuraanimes.com/img/paypal.png" alt="PayPal">
+                                    </button>
+                                </div>
+
+                                <!-- PIX button -->
+                                <button class="pix-button" onclick="togglePix()">
+                                    <img src="img/assets/pix.webp" alt="Pix">
+                                </button>
+
+                                <div id="pixSection" style="display: none;" class="pix-section">
+                                    <img src="img/assets/qr.webp" alt="QR Code Pix" class="pix-qrcode">
+                                    <a href="https://picpay.me/erick.vrio" target="_blank" class="pix-link">Link se
+                                        preferir</a>
+                                </div>
+
+                                <div class="donation-group donation-toggle-section">
+                                    <button class="toggle-button" onclick="toggleLinks()">
+                                        <img src="img/assets/mercado-pago.webp" alt="Mercado Pago" class="mercado-img">
+                                    </button>
+
+                                    <div class="mercado-options" id="mercadoOptions">
+                                        <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=56355945-b7581cc9-6077-4e1b-a584-fa13ae6ec134"
+                                            target="_blank">Doação R$10</a>
+                                        <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=56355945-a98da381-ec6b-442d-a5d8-22570ae80da7"
+                                            target="_blank">Doação R$25</a>
+                                        <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=56355945-25bd283b-283e-4b06-9866-888baa1ad5bf"
+                                            target="_blank">Doação R$50</a>
+                                        <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=56355945-32dc34ca-b7cc-49d5-8f86-921e7a8934fe"
+                                            target="_blank">Doação R$100</a>
+                                    </div>
+                                </div>
+                                <div class="image-donate donation-toggle-section hide-on-mercado"></div>
+                            </div>
+                        </section>
                         <div class="post-container">
                             <div id="sidebar-wrapper">
                                 <h2 style="margin: 0;display: flex;justify-content: flex-start;"><span
@@ -103,7 +162,9 @@
     <script src="js/contSub.js"></script>
     <script src="js/search.js"></script>
     <script src="js/menuHam.js"></script>
+    <script src="js/banner.js"></script>
     <script src="js/projectLoader.js"></script>
+    <script src="js/donate.js"></script>
 </body>
 
 </html>

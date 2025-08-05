@@ -397,7 +397,30 @@ button#search-button-nav {
     .anime-info-text {
         margin-top: 30px;
     }
+
+    .donation-section {
+        display: none;
+    }
 }
+
+@media (max-width: 1290px) {
+    .image-donate {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1240px) {
+    .banner-section {
+        height: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .donation-section {
+        display: none;
+    }
+}
+
 
 tbody {
     display: flex;
@@ -1288,7 +1311,6 @@ a#anime-site-oficial:hover {
     background-color: #051720;
     border: 2px solid #214556;
     margin-bottom: 20px;
-    border-top: none;
 }
 
 .post-list {
@@ -1498,7 +1520,6 @@ a#anime-site-oficial:hover {
     align-items: center;
     justify-content: space-between;
     gap: 5px;
-    height: 25px;
     margin-bottom: 10px;
 }
 
@@ -1583,7 +1604,7 @@ a#anime-site-oficial:hover {
 }
 
 .project-item:hover .project-cover-image {
-    max-height: 300px;
+    max-height: 467px;
     /* Altere para a altura total da sua imagem ou um valor que a mostre por completo */
     /* Você pode adicionar outras propriedades de transição aqui, se desejar, como transform: scale(1.1); para um leve zoom */
 }
@@ -1780,8 +1801,16 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    opacity: 0.9;
+.toggle-button:hover {
+    background-color: #e5e5e5;
+}
+
+.pix-button:hover {
+    background-color: #e5e5e5;
+}
+
+.donation-btn:hover {
+    background-color: #e5e5e5;
 }
 
 .comentario {
@@ -1960,6 +1989,7 @@ section.recrutamento {
     background-color: #051720;
     padding: 60px;
     border: 2px solid #214556;
+    border-top: none;
 }
 
 .recrutamento-funções {
@@ -2017,4 +2047,219 @@ strong {
 
 .center {
     text-align: center;
+}
+
+.banner-section {
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #051720;
+    border: 2px solid #214556;
+    margin-bottom: 20px;
+    border-top: none;
+}
+
+.banner-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    /* ocupa 100% da largura da tela */
+    height: auto;
+    aspect-ratio: 16 / 9;
+    /* mantém proporção sem distorcer */
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.banner-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.progress-bar-banner {
+    flex-grow: 1;
+    height: 6px;
+    background: #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0%;
+    background: #214556;
+}
+
+.prev-banner,
+.next-banner {
+    background: #214556;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Responsivo adicional */
+@media (max-width: 600px) {
+    .banner-controls {
+        gap: 6px;
+    }
+
+    .prev-banner,
+    .next-banner {
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+
+    .progress-bar-banner {
+        height: 4px;
+    }
+}
+
+.donation-section {
+    padding: 20px;
+    background-color: #051720;
+    color: #fff;
+    margin-bottom: 20px;
+    border: 2px solid #214556;
+    border-top: none;
+    width: 300px;
+}
+
+.donation-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donation-btn {
+    flex: 1;
+    background: #fff;
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: #fdfdfd;
+    padding: 10px 15px;
+    border: 1px solid #214556;
+}
+
+.donation-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.pix-button {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #214556;
+}
+
+.pix-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.home-i {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: none;
+}
+
+.donation-group {
+    text-align: center;
+    flex-direction: column;
+}
+
+.toggle-button {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #214556;
+}
+
+.mercado-options {
+    display: none;
+    flex-direction: column;
+}
+
+.mercado-options a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    background-color: #1997d3;
+    border: 1px solid #214556;
+}
+
+.mercado-options a:hover {
+    text-decoration: underline;
+}
+
+img.mercado-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.pix-section {
+    text-align: center;
+}
+
+.pix-qrcode {
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #214556;
+    box-sizing: border-box;
+}
+
+.pix-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1997d3;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.pix-link:hover {
+    text-decoration: underline;
+}
+
+.image-donate {
+    background-image: url('img/assets/doacao.webp');
+    /* ou o novo caminho da sua imagem */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 140px;
+    margin-top: 5px;
+}
+
+.donation-section2 {
+    margin-bottom: 10px;
+    border-top: none;
 }
