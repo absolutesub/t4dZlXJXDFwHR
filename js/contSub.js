@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                         <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=56355945-32dc34ca-b7cc-49d5-8f86-921e7a8934fe" target="_blank">Doação R$100</a>
                                     </div>
                                 </div>
-                                <div class="image-donate donation-toggle-section hide-on-mercado" style="display: flex;"></div>
+                                <div class="image-donate donation-toggle-section hide-on-mercado" style="display: flex !important;"></div>
                             </div>
                         </div>
                         <div class="blocks" style="width: 100%;">
