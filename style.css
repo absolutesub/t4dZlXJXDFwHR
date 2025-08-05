@@ -875,17 +875,32 @@ tr.linha-resolucao:after {
     background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(5 23 32));
 }
 
-.share-popup-content {
-    background-color: #08202c;
-    padding: 30px;
-    width: 500px;
-    color: white;
-    border: 3px solid #214556;
-    position: fixed;
-    top: 80%;
-    left: 50%;
+@keyframes fadeIn {
+  from {
+    transform: translate(-50%, 50%);
+    opacity: 0;
+    background-color: rgba(8, 32, 44, 0); /* transparente */
+  }
+  to {
     transform: translate(-50%, -50%);
-    box-sizing: border-box;
+    opacity: 1;
+    background-color: #08202c; /* cor final */
+  }
+}
+
+.share-popup-content {
+  background-color: #08202c; /* cor final para fallback */
+  padding: 30px;
+  width: 500px;
+  color: white;
+  border: 3px solid #214556;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  opacity: 0;
+  animation: fadeIn 0.4s ease forwards;
 }
 
 .close-popup {
