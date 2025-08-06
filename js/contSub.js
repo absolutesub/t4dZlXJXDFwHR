@@ -45,18 +45,18 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </div>
                         <div class="blocks" style="width: 100%;">
-                         <h3 class="title-parceiros">Projetos em Andamento</h3>
-                          <div id="projects-in-progress">
-                           Carregando projetos...
-                          </div>
-                        </div>
-                        <div class="blocks" style="width: 100%;">
                             <h3 class="title-parceiros">Nosso servidor</h3>
                             <iframe src="https://discord.com/widget?id=572858265625690112&amp;theme=dark" width="100%"
                                 height="500" allowtransparency="true" frameborder="0"
                                 sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
                                 loading="lazy">
                             </iframe>
+                        </div>
+                        <div class="blocks" style="width: 100%;">
+                         <h3 class="title-parceiros">Projetos em Andamento</h3>
+                          <div id="projects-in-progress">
+                           Carregando projetos...
+                          </div>
                         </div>
                         <div class="blocks" style="width: 100%;">
                             <h3 class="title-parceiros">Parceiros</h3>
