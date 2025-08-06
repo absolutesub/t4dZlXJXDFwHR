@@ -285,22 +285,13 @@ button#search-button-nav {
     justify-content: center;
 }
 
-.anime-details-header {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding: 15px 25px;
-    background-color: #051720;
-}
-
 .container-footer-main {
     width: 100%;
 }
 
 @media (max-width: 768px) {
     .anime-details-header {
-        display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
         align-items: center;
     }
 
@@ -401,11 +392,31 @@ button#search-button-nav {
     .donation-section {
         display: none;
     }
+
+    .anime-bg-video iframe {
+        top: 0% !important;
+    }
+
+    .anime-bg-video .bottom-gradient {
+        background: linear-gradient(to top, rgb(5 23 32) 60%, rgb(5 23 32) 0%, transparent 100%) !important;
+    }
 }
 
 @media (max-width: 1290px) {
     .image-donate {
         display: none !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+    #anime-list {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 0px !important;
+        padding: 10px !important;
+    }
+
+    .container-sub {
+        width: 280px !important;
     }
 }
 
@@ -876,31 +887,35 @@ tr.linha-resolucao:after {
 }
 
 @keyframes fadeIn {
-  from {
-    transform: translate(-50%, 50%);
-    opacity: 0;
-    background-color: rgba(8, 32, 44, 0); /* transparente */
-  }
-  to {
-    transform: translate(-50%, -50%);
-    opacity: 1;
-    background-color: #08202c; /* cor final */
-  }
+    from {
+        transform: translate(-50%, 50%);
+        opacity: 0;
+        background-color: rgba(8, 32, 44, 0);
+        /* transparente */
+    }
+
+    to {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        background-color: #08202c;
+        /* cor final */
+    }
 }
 
 .share-popup-content {
-  background-color: #08202c; /* cor final para fallback */
-  padding: 30px;
-  width: 500px;
-  color: white;
-  border: 3px solid #214556;
-  position: fixed;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-sizing: border-box;
-  opacity: 0;
-  animation: fadeIn 0.4s ease forwards;
+    background-color: #08202c;
+    /* cor final para fallback */
+    padding: 30px;
+    width: 500px;
+    color: white;
+    border: 3px solid #214556;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    opacity: 0;
+    animation: fadeIn 0.4s ease forwards;
 }
 
 .close-popup {
@@ -1113,7 +1128,7 @@ section.anime-details-header {
     left: 0;
     height: 3em;
     width: 100%;
-    background: linear-gradient(to top, #051720 15%, #00000000 100%);
+    background: linear-gradient(to top, #051720 0%, #00000000 100%);
     pointer-events: none;
     transition: opacity 0.3s ease;
     opacity: 1;
@@ -2104,8 +2119,8 @@ strong {
 
 .progress-bar-banner {
     flex-grow: 1;
-    height: 6px;
-    background: #ccc;
+    height: 5px;
+    background: #acacac;
     border-radius: 5px;
     overflow: hidden;
     position: relative;
@@ -2279,4 +2294,63 @@ img.mercado-img {
 .donation-section2 {
     margin-bottom: 10px;
     border-top: none;
+}
+
+.anime-details-header {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 15px 25px;
+    background-color: #051720;
+}
+
+/* CAMADA DO VÍDEO */
+.anime-details-header .anime-bg-video {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+/* O IFRAME É O VÍDEO */
+.anime-bg-video iframe {
+    width: 177.78vh;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.22;
+    filter: blur(1px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* SOBREPOSIÇÃO ESCURA */
+.anime-details-header .anime-bg-video .video-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(5, 10, 15, 0.25), rgba(5, 10, 15, 0.5));
+    z-index: 1;
+}
+
+/* CONTEÚDO PRINCIPAL ACIMA DE TUDO */
+.anime-details-header>*:not(.anime-bg-video) {
+    position: relative;
+    z-index: 2;
+}
+
+.anime-bg-video .bottom-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgb(5, 23, 32) 40%, rgb(5 23 32 / 0%) 85%, transparent 100%);
+    z-index: 2;
+    pointer-events: none;
 }
