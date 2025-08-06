@@ -30,10 +30,10 @@ document.addEventListener("DOMContentLoaded", () => {
       iframe.setAttribute("allowfullscreen", "");
 
       // Estilo inicial (invisível)
-      iframe.style.width = "177.78vh";
-      iframe.style.height = "100vh";
+      iframe.style.width = "102vh";
+      iframe.style.height = "100%";
       iframe.style.position = "absolute";
-      iframe.style.top = "50%";
+      iframe.style.top = "270px";
       iframe.style.left = "50%";
       iframe.style.transform = "translate(-50%, -50%)";
       iframe.style.opacity = "0";
