@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Estilo inicial (invisível)
       iframe.style.width = "102vh";
-      iframe.style.height = "100%";
+      iframe.style.height = "60vh";
       iframe.style.position = "absolute";
       iframe.style.top = "270px";
       iframe.style.left = "50%";
