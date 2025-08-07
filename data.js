@@ -1,5 +1,48 @@
 [
   {
+    "id": 2,
+    "titulo": "test",
+    "imagem": null,
+    "tags": [
+      "test"
+    ],
+    "lancamento": "2025",
+    "genero": "test",
+    "episodiosTotal": 2,
+    "status": "Finalizado",
+    "sinopse": "test",
+    "trailerUrl": "test",
+    "adicionadoEm": "2025-08-07T12:02:28.915567",
+    "estudio": "test",
+    "siteOficial": "test",
+    "video": "x264 10Bit",
+    "audio": "AAC",
+    "resolucao": "1080p",
+    "legendas": "Softsub",
+    "scriptOriginal": "test",
+    "form_url": "test",
+    "entry_nome": "test",
+    "entry_comentario": "test",
+    "csv_url": "test",
+    "screenshots": [],
+    "episodios": [
+      {
+        "numero": 1,
+        "downloads": {
+          "krakenfiles": "test",
+          "nyaa": "test"
+        }
+      },
+      {
+        "numero": 2,
+        "downloads": {
+          "krakenfiles": "testtest",
+          "nyaa": "test"
+        }
+      }
+    ]
+  },
+  {
     "id": 1,
     "titulo": "test",
     "imagem": "img/id1/id1capa.webp",
