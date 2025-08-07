@@ -1,5 +1,33 @@
 const animes = [
   {
+    "id": 2,
+    "titulo": "gggg",
+    "imagem": null,
+    "tags": [
+      "gggg"
+    ],
+    "lancamento": "2025",
+    "genero": "gggg",
+    "episodiosTotal": 0,
+    "status": "Finalizado",
+    "sinopse": "",
+    "trailerUrl": "gggg",
+    "adicionadoEm": "2025-08-07T12:15:34.033132",
+    "estudio": "gggg",
+    "siteOficial": "gggg",
+    "video": "x264 10Bitgggg",
+    "audio": "AAC",
+    "resolucao": "1080p",
+    "legendas": "Softsub",
+    "scriptOriginal": "",
+    "form_url": "",
+    "entry_nome": "",
+    "entry_comentario": "",
+    "csv_url": "",
+    "screenshots": [],
+    "episodios": []
+  },
+  {
     "id": 1,
     "titulo": "gggg",
     "imagem": "img/id1/id1capa.webp",
