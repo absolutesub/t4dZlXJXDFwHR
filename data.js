@@ -6,16 +6,16 @@ const animes = [
     "tags": [
       "test"
     ],
-    "lancamento": "2023",
+    "lancamento": "2015",
     "genero": "test",
     "episodiosTotal": 2,
-    "status": "Em andamento",
+    "status": "Pausado",
     "sinopse": "test",
     "trailerUrl": "test",
-    "adicionadoEm": "2025-08-07T11:41:03.224363",
+    "adicionadoEm": "2025-08-07T11:54:24.527659",
     "estudio": "test",
     "siteOficial": "test",
-    "video": "x264 10Bit",
+    "video": "x264 10Bittest",
     "audio": "FLAC",
     "resolucao": "720p",
     "legendas": "HardSub",
@@ -33,15 +33,15 @@ const animes = [
       {
         "numero": 1,
         "downloads": {
-          "terabox": "test",
-          "pcloud": "test"
+          "pcloud": "test",
+          "terabox": "test"
         }
       },
       {
         "numero": 2,
         "downloads": {
-          "terabox": "test",
-          "pcloud": "test"
+          "pcloud": "test",
+          "terabox": "test"
         }
       }
     ]
