@@ -1,4 +1,4 @@
-const animes = [
+[
   {
     "id": 1,
     "titulo": "test",
@@ -6,18 +6,18 @@ const animes = [
     "tags": [
       "test"
     ],
-    "lancamento": "2015",
+    "lancamento": "2020",
     "genero": "test",
     "episodiosTotal": 2,
-    "status": "Pausado",
+    "status": "Em andamento",
     "sinopse": "test",
     "trailerUrl": "test",
-    "adicionadoEm": "2025-08-07T11:54:24.527659",
-    "estudio": "test",
+    "adicionadoEm": "2025-08-07T12:01:53.538163",
+    "estudio": "tees",
     "siteOficial": "test",
-    "video": "x264 10Bittest",
-    "audio": "FLAC",
-    "resolucao": "720p",
+    "video": "x264 10Bit",
+    "audio": "AAC",
+    "resolucao": "480p",
     "legendas": "HardSub",
     "scriptOriginal": "test",
     "form_url": "test",
@@ -46,4 +46,4 @@ const animes = [
       }
     ]
   }
-];
+]
