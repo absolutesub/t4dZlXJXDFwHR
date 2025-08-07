@@ -1,29 +1,29 @@
-[
+const animes = [
   {
     "id": 1,
-    "titulo": "tst",
+    "titulo": "gggg",
     "imagem": "img/id1/id1capa.webp",
     "tags": [
-      "tst"
+      "gggg"
     ],
-    "lancamento": "2023",
-    "genero": "tst",
-    "episodiosTotal": 3,
+    "lancamento": "2021",
+    "genero": "gggg",
+    "episodiosTotal": 2,
     "status": "Finalizado",
-    "sinopse": "tsttst",
-    "trailerUrl": "tst",
-    "adicionadoEm": "2025-08-07T12:06:19.472198",
-    "estudio": "tst",
-    "siteOficial": "tst",
-    "video": "x264 10Bit",
-    "audio": "AAC",
-    "resolucao": "1080p",
-    "legendas": "HardSub",
-    "scriptOriginal": "tst",
-    "form_url": "tst",
-    "entry_nome": "tst",
-    "entry_comentario": "tst",
-    "csv_url": "tst",
+    "sinopse": "gggg",
+    "trailerUrl": "gggg",
+    "adicionadoEm": "2025-08-07T12:15:18.449121",
+    "estudio": "gggg",
+    "siteOficial": "gggg",
+    "video": "x264 10Bitgggg",
+    "audio": "FLAC",
+    "resolucao": "720p",
+    "legendas": "Softsub",
+    "scriptOriginal": "gggg",
+    "form_url": "gggg",
+    "entry_nome": "gggg",
+    "entry_comentario": "gggg",
+    "csv_url": "gggg",
     "screenshots": [
       "img/id1/shot1.webp",
       "img/id1/shot2.webp",
@@ -33,24 +33,17 @@
       {
         "numero": 1,
         "downloads": {
-          "pixeldrain": "tst",
-          "terabox": "tst"
+          "mediafire": "gggg",
+          "pixeldrain": "gggg"
         }
       },
       {
         "numero": 2,
         "downloads": {
-          "pixeldrain": "tst",
-          "terabox": "tst"
-        }
-      },
-      {
-        "numero": 3,
-        "downloads": {
-          "pixeldrain": "tst",
-          "terabox": "tst"
+          "mediafire": "gggg",
+          "pixeldrain": "gggg"
         }
       }
     ]
   }
-]
+];
