@@ -1,45 +1,43 @@
 const animes = [
   {
     "id": 31,
-    "titulo": "Test",
+    "titulo": "Test2",
     "imagem": "img/id31/id31capa.webp",
     "tags": [
-      "Test"
+      "Test2"
     ],
     "lancamento": "2007",
-    "genero": "Test",
+    "genero": "Test2",
     "episodiosTotal": 2,
     "status": "Em andamento",
-    "sinopse": "Test",
-    "trailerUrl": "Test",
+    "sinopse": "Test2",
+    "trailerUrl": "Test2",
     "adicionadoEm": "08 de agosto de 2025",
-    "estudio": "Test",
-    "siteOficial": "Test",
-    "video": "Test",
-    "audio": "AAC",
+    "estudio": "Test2",
+    "siteOficial": "Test2",
+    "video": "Test2",
+    "audio": "FLAC",
     "resolucao": "720p",
     "legendas": "HardSub",
-    "scriptOriginal": "Test",
-    "form_url": "Test",
-    "entry_nome": "Test",
-    "entry_comentario": "Test",
-    "csv_url": "Test",
+    "scriptOriginal": "Test2",
+    "form_url": "Test2",
+    "entry_nome": "Test2",
+    "entry_comentario": "Test2",
+    "csv_url": "Test2",
     "screenshots": [
-      "img/id31/shot1.webp",
-      "img/id31/shot2.webp",
       "img/id31/shot3.webp"
     ],
     "episodios": [
       {
         "numero": 1,
         "downloads": {
-          "terabox": "Test"
+          "terabox": "Test2"
         }
       },
       {
         "numero": 2,
         "downloads": {
-          "terabox": "Test"
+          "terabox": "Test2"
         }
       }
     ]
