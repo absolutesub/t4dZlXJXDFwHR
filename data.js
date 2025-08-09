@@ -2,22 +2,33 @@ const animes = [
   {
     "id": 31,
     "adicionadoEm": "08 de agosto de 2025",
-    "imagem": null,
+    "imagem": "img/id31/id31capa.webp",
     "banner": null,
-    "shots": [],
+    "shots": [
+      "img/id31/shot1.webp",
+      "img/id31/shot2.webp",
+      "img/id31/shot3.webp"
+    ],
     "episodios": [
       {
         "numero": 1,
         "downloads": {
-          "pcloud": "test",
-          "nyaa": "test"
+          "nyaa": "test",
+          "pcloud": "test"
         }
       },
       {
         "numero": 2,
         "downloads": {
-          "pcloud": "test",
-          "nyaa": "test"
+          "nyaa": "test",
+          "pcloud": "test"
+        }
+      },
+      {
+        "numero": 3,
+        "downloads": {
+          "nyaa": "test",
+          "pcloud": "test"
         }
       }
     ],
@@ -41,7 +52,7 @@ const animes = [
     "entry_nome": "test",
     "entry_comentario": "test",
     "csv_url": "test",
-    "episodiosTotal": 2
+    "episodiosTotal": 3
   },
   {
     "id": 1,
