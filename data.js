@@ -5,7 +5,7 @@ const animes = [
     "imagem": "img/id1/id1capa.webp",
     "tags": [
       "Musical",
-      "Slice of Life"
+      "Slice of Life."
     ],
     "lancamento": "2020",
     "genero": "Musical, Slice of Life.",
@@ -25,11 +25,7 @@ const animes = [
     "entry_nome": "entry.170107433",
     "entry_comentario": "entry.227055093",
     "csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTRFQl62_YuvlVAFQdfFekQeal89kUdh_JTlsH2rmhiB-L6UZ5hHzSjaifnGNaVW8tg5UrrWSP_xvQa/pub?gid=55024768&single=true&output=csv",
-    "screenshots": [
-      "img/id1/shot1.webp",
-      "img/id1/shot2.webp",
-      "img/id1/shot3.webp"
-    ],
+    "screenshots": [],
     "episodios": [
       {
         "numero": 1,
@@ -107,12 +103,6 @@ const animes = [
         "numero": 13,
         "downloads": {
           "pixeldrain": "https://pixeldrain.com/u/KRpvJfeU"
-        }
-      },
-      {
-        "numero": "1-13",
-        "downloads": {
-          "nyaa": "https://nyaa.si/view/1656938"
         }
       }
     ]
