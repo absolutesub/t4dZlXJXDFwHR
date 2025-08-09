@@ -1,5 +1,51 @@
 const animes = [
   {
+    "id": 31,
+    "adicionadoEm": "08 de agosto de 2025",
+    "imagem": "img/id31/id31capa.webp",
+    "banner": null,
+    "screenshots": [
+      "img/id31/shot1.webp",
+      "img/id31/shot2.webp",
+      "img/id31/shot3.webp"
+    ],
+    "episodios": [
+      {
+        "numero": 1,
+        "downloads": {
+          "terabox": "test"
+        }
+      },
+      {
+        "numero": 2,
+        "downloads": {
+          "terabox": "test"
+        }
+      }
+    ],
+    "titulo": "test",
+    "genero": "test",
+    "tags": [
+      "test"
+    ],
+    "lancamento": "2025",
+    "sinopse": "test",
+    "status": "Finalizado",
+    "estudio": "test",
+    "resolucao": "1080p",
+    "video": "test",
+    "audio": "FLAC",
+    "legendas": "Softsub",
+    "scriptOriginal": "test",
+    "siteOficial": "test",
+    "trailerUrl": "test",
+    "form_url": "test",
+    "entry_nome": "test",
+    "entry_comentario": "test",
+    "csv_url": "test",
+    "episodiosTotal": 2
+  },
+  {
     "id": 1,
     "titulo": "Nanabun no Nijyuuni",
     "imagem": "img/id1/id1capa.webp",
