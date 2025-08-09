@@ -17,7 +17,7 @@ const animes = [
     "estudio": "A-1 Pictures",
     "siteOficial": "https://227anime.com/",
     "video": "x265 10Bit",
-    "audio": "FLAC",
+    "audio": "AAC",
     "resolucao": "1080p",
     "legendas": "Softsub",
     "scriptOriginal": "indisponível",
