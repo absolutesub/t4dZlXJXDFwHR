@@ -1,48 +1,5 @@
 const animes = [
   {
-    "id": 31,
-    "titulo": "Test2",
-    "imagem": "img/id31/id31capa.webp",
-    "tags": [
-      "Test2"
-    ],
-    "lancamento": "2007",
-    "genero": "Test2",
-    "episodiosTotal": 2,
-    "status": "Em andamento",
-    "sinopse": "Test2",
-    "trailerUrl": "Test2",
-    "adicionadoEm": "08 de agosto de 2025",
-    "estudio": "Test2",
-    "siteOficial": "Test2",
-    "video": "Test2",
-    "audio": "FLAC",
-    "resolucao": "720p",
-    "legendas": "HardSub",
-    "scriptOriginal": "Test2",
-    "form_url": "Test2",
-    "entry_nome": "Test2",
-    "entry_comentario": "Test2",
-    "csv_url": "Test2",
-    "screenshots": [
-      "img/id31/shot3.webp"
-    ],
-    "episodios": [
-      {
-        "numero": 1,
-        "downloads": {
-          "terabox": "Test2"
-        }
-      },
-      {
-        "numero": 2,
-        "downloads": {
-          "terabox": "Test2"
-        }
-      }
-    ]
-  },
-  {
     "id": 1,
     "titulo": "Nanabun no Nijyuuni",
     "imagem": "img/id1/id1capa.webp",
