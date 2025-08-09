@@ -134,11 +134,7 @@ const animes = [
     "entry_nome": "entry.1782582005",
     "entry_comentario": "entry.930358843",
     "csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSXRPG54lBd7oTyAI857vyNpfvtxNIghZMUK4EB2KtUSp-mRtFzsfGnicpmg-4Hgk6M23eFfrV-2wc8/pub?gid=375390656&single=true&output=csv",
-    "screenshots": [
-      "img/id2/shot1.webp",
-      "img/id2/shot2.webp",
-      "img/id2/shot3.webp"
-    ],
+    "screenshots": [],
     "episodios": [
       {
         "numero": 1,
