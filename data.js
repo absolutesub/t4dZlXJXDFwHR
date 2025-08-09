@@ -1,49 +1,5 @@
 const animes = [
   {
-    "id": 31,
-    "adicionadoEm": "2025-08-08T22:00:29.969433",
-    "imagem": null,
-    "banner": null,
-    "shots": [],
-    "episodios": [
-      {
-        "numero": 1,
-        "downloads": {
-          "krakenfiles": "test",
-          "nyaa": "test"
-        }
-      },
-      {
-        "numero": 2,
-        "downloads": {
-          "krakenfiles": "test",
-          "nyaa": "test"
-        }
-      }
-    ],
-    "titulo": "Testwcfs",
-    "genero": "test",
-    "tags": [
-      "test"
-    ],
-    "lancamento": "2025",
-    "sinopse": "test",
-    "status": "Finalizado",
-    "estudio": "test",
-    "resolucao": "1080p",
-    "video": "x264 10Bit",
-    "audio": "FLAC",
-    "legendas": "Softsub",
-    "scriptOriginal": "test",
-    "siteOficial": "test",
-    "trailerUrl": "test",
-    "form_url": "test",
-    "entry_nome": "test",
-    "entry_comentario": "test",
-    "csv_url": "test",
-    "episodiosTotal": 2
-  },
-  {
     "id": 1,
     "titulo": "Nanabun no Nijyuuni",
     "imagem": "img/id1/id1capa.webp",
