@@ -32,7 +32,7 @@ const animes = [
         }
       }
     ],
-    "titulo": "test",
+    "titulo": "tests",
     "genero": "test",
     "tags": [
       "test"
@@ -52,7 +52,8 @@ const animes = [
     "entry_nome": "test",
     "entry_comentario": "test",
     "csv_url": "test",
-    "episodiosTotal": 3
+    "episodiosTotal": 3,
+    "screenshots": []
   },
   {
     "id": 1,
