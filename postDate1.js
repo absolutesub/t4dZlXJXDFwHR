@@ -1,16 +1,5 @@
 const posts = [
   {
-    "id": 10000,
-    "link": "contentpost.html?id=10000",
-    "date": "08-08-2025",
-    "thumbnail": "img/PostsIMG/absolute-img-postId-10000.webp",
-    "title": "Novo post test",
-    "summary": "Novo post test",
-    "author": "Abolsute",
-    "animeId": 14,
-    "fullContent": "<p>Conteudo</p><p>conteudo</p><p>conteudo</p>"
-  },
-  {
     "id": 9995,
     "title": "Miru Tights [BD]",
     "link": "contentpost.html?id=9995",
