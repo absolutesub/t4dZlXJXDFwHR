@@ -1,5 +1,47 @@
 const animes = [
   {
+    "id": 31,
+    "adicionadoEm": "09 de agosto de 2025",
+    "imagem": "img/id31/id31capa.webp",
+    "banner": null,
+    "screenshots": [
+      "img/id31/shot1.webp",
+      "img/id31/shot2.webp",
+      "img/id31/shot3.webp"
+    ],
+    "episodios": [
+      {
+        "numero": 1,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/PbeGEvDa"
+        }
+      }
+    ],
+    "titulo": "YuruYuri Ten OVA",
+    "genero": "Escolar, Shoujo Ai, Slice of Life",
+    "tags": [
+      "Escolar",
+      "Shoujo Ai",
+      "Slice of Life"
+    ],
+    "lancamento": "2019",
+    "sinopse": "OVA em comemoração ao 10º aniversário do mangá.",
+    "status": "Finalizado",
+    "estudio": "Lay-duce",
+    "resolucao": "720p",
+    "video": "x264 10Bit",
+    "audio": "AAC",
+    "legendas": "HardSub",
+    "scriptOriginal": "GJM",
+    "siteOficial": "https://yuruyuri.com/10th/",
+    "trailerUrl": "https://www.youtube.com/embed/4elmGs7pKU0",
+    "form_url": "",
+    "entry_nome": "",
+    "entry_comentario": "",
+    "csv_url": "",
+    "episodiosTotal": 1
+  },
+  {
     "id": 1,
     "titulo": "Nanabun no Nijyuuni",
     "imagem": "img/id1/id1capa.webp",
