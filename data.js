@@ -4,11 +4,7 @@ const animes = [
     "adicionadoEm": "09 de agosto de 2025",
     "imagem": "img/id31/id31capa.webp",
     "banner": null,
-    "screenshots": [
-      "img/id31/shot1.webp",
-      "img/id31/shot2.webp",
-      "img/id31/shot3.webp"
-    ],
+    "screenshots": [],
     "episodios": [
       {
         "numero": 1,
@@ -35,10 +31,10 @@ const animes = [
     "scriptOriginal": "GJM",
     "siteOficial": "https://yuruyuri.com/10th/",
     "trailerUrl": "https://www.youtube.com/embed/4elmGs7pKU0",
-    "form_url": "",
-    "entry_nome": "",
-    "entry_comentario": "",
-    "csv_url": "",
+    "form_url": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf4QYY43BzrdKFCosYvgkUZ506vtCeNtqjGhK-72npQnel4MA/formResponse",
+    "entry_nome": "entry.2147039044",
+    "entry_comentario": "entry.2118240938",
+    "csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQafQEKpDIEp9Hnhv6PjDOAJzegABFtis8OGet4lmSIo8X9WPvIRbW3ATsCYPdCFIiqphT8ZuchvS1y/pub?gid=480738251&single=true&output=csv",
     "episodiosTotal": 1
   },
   {
