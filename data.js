@@ -4,7 +4,11 @@ const animes = [
     "adicionadoEm": "09 de agosto de 2025",
     "imagem": "img/id31/id31capa.webp",
     "banner": null,
-    "screenshots": [],
+    "screenshots": [
+      "img/id31/shot1.webp",
+      "img/id31/shot2.webp",
+      "img/id31/shot3.webp"
+    ],
     "episodios": [
       {
         "numero": 1,
