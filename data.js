@@ -1,5 +1,53 @@
 const animes = [
   {
+    "id": 32,
+    "adicionadoEm": "01 de setembro de 2025",
+    "imagem": "img/id32/id32capa.webp",
+    "banner": null,
+    "screenshots": [],
+    "episodios": [
+      {
+        "numero": 1,
+        "downloads": {
+          "pixeldrain": "test"
+        }
+      },
+      {
+        "numero": 2,
+        "downloads": {
+          "pixeldrain": "test"
+        }
+      },
+      {
+        "numero": 3,
+        "downloads": {
+          "pixeldrain": "test"
+        }
+      }
+    ],
+    "titulo": "test",
+    "genero": "test",
+    "tags": [
+      "test"
+    ],
+    "lancamento": "2025",
+    "sinopse": "test",
+    "status": "Finalizado",
+    "estudio": "test",
+    "resolucao": "1080p",
+    "video": "x264 10Bit",
+    "audio": "AAC",
+    "legendas": "Softsub",
+    "scriptOriginal": "test",
+    "siteOficial": "test",
+    "trailerUrl": "test",
+    "form_url": "test",
+    "entry_nome": "test",
+    "entry_comentario": "test",
+    "csv_url": "test",
+    "episodiosTotal": 3
+  },
+  {
     "id": 31,
     "adicionadoEm": "09 de agosto de 2025",
     "imagem": "img/id31/id31capa.webp",
