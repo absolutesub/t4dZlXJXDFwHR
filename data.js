@@ -1,5 +1,60 @@
 const animes = [
   {
+    "id": 32,
+    "adicionadoEm": "01 de setembro de 2025",
+    "imagem": "img/id32/id32capa.webp",
+    "banner": null,
+    "screenshots": [
+      "img/id32/shot1.webp",
+      "img/id32/shot2.webp",
+      "img/id32/shot3.webp"
+    ],
+    "episodios": [
+      {
+        "numero": 1,
+        "downloads": {
+          "krakenfiles": "Test",
+          "pixeldrain": "Test"
+        }
+      },
+      {
+        "numero": 2,
+        "downloads": {
+          "krakenfiles": "Test",
+          "pixeldrain": "Test"
+        }
+      },
+      {
+        "numero": 3,
+        "downloads": {
+          "krakenfiles": "Test",
+          "pixeldrain": "Test"
+        }
+      }
+    ],
+    "titulo": "Test",
+    "genero": "Test",
+    "tags": [
+      "Test"
+    ],
+    "lancamento": "2025",
+    "sinopse": "Test",
+    "status": "Finalizado",
+    "estudio": "Test",
+    "resolucao": "1080p",
+    "video": "x264 10Bit",
+    "audio": "AAC",
+    "legendas": "Softsub",
+    "scriptOriginal": "Test",
+    "siteOficial": "Test",
+    "trailerUrl": "Test",
+    "form_url": "Test",
+    "entry_nome": "Test",
+    "entry_comentario": "Test",
+    "csv_url": "Test",
+    "episodiosTotal": 3
+  },
+  {
     "id": 31,
     "adicionadoEm": "09 de agosto de 2025",
     "imagem": "img/id31/id31capa.webp",
