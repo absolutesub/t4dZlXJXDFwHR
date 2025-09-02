@@ -8,7 +8,9 @@ const animes = [
     "episodios": [
       {
         "numero": 1,
-        "downloads": {}
+        "downloads": {
+          "pixeldrain": "test"
+        }
       },
       {
         "numero": 2,
