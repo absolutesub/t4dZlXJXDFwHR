@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: index.html/sitemap.xml
+Sitemap: absolutesub.com.br/sitemap.xml
