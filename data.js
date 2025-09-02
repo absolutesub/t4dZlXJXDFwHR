@@ -9,12 +9,14 @@ const animes = [
       {
         "numero": 1,
         "downloads": {
-          "pixeldrain": "test"
+          "pixeldrain": "test.com"
         }
       },
       {
         "numero": 2,
-        "downloads": {}
+        "downloads": {
+          "pixeldrain": "test.com"
+        }
       }
     ],
     "titulo": "test",
