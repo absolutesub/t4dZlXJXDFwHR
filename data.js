@@ -14,9 +14,7 @@ const animes = [
       },
       {
         "numero": 2,
-        "downloads": {
-          "pixeldrain": "teste;com"
-        }
+        "downloads": {}
       }
     ],
     "titulo": "22",
