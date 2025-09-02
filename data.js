@@ -1,43 +1,5 @@
 const animes = [
   {
-    "id": 32,
-    "adicionadoEm": "01 de setembro de 2025",
-    "imagem": null,
-    "banner": null,
-    "screenshots": [],
-    "episodios": [
-      {
-        "numero": 1,
-        "downloads": {
-          "pixeldrain": "teste;com"
-        }
-      },
-      {
-        "numero": 2,
-        "downloads": {}
-      }
-    ],
-    "titulo": "22",
-    "genero": "",
-    "tags": [],
-    "lancamento": "2025",
-    "sinopse": "",
-    "status": "Finalizado",
-    "estudio": "",
-    "resolucao": "1080p",
-    "video": "x264 10Bit",
-    "audio": "AAC",
-    "legendas": "Softsub",
-    "scriptOriginal": "",
-    "siteOficial": "",
-    "trailerUrl": "",
-    "form_url": "",
-    "entry_nome": "",
-    "entry_comentario": "",
-    "csv_url": "",
-    "episodiosTotal": 2
-  },
-  {
     "id": 31,
     "adicionadoEm": "09 de agosto de 2025",
     "imagem": "img/id31/id31capa.webp",
