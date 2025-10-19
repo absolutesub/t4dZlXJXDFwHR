@@ -1,6 +1,6 @@
 const animes = [
   {
-id: 0,
+id: 32,
 titulo: " Hentatsu",
 imagem: "img/id0/id0capa.webp",
 tags: ["Aventura", "Mistério."],
