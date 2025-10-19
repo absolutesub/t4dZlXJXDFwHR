@@ -106,7 +106,7 @@ episodios: [
             pixeldrain: "https://workupload.com/file/PPyyehdN2rx"
         }
     }
-],
+]
 },
   
   {
