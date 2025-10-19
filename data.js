@@ -2,7 +2,7 @@ const animes = [
   {
 id: 32,
 titulo: " Hentatsu",
-imagem: "img/id0/id0capa.webp",
+imagem: "img/id32/id32capa.webp",
 tags: ["Aventura", "Mistério."],
 lancamento: " 2020",
 genero: "Aventura, Mistério.",
