@@ -1522,7 +1522,7 @@ episodios: [
     "lancamento": "2020",
     "genero": "Ação, Fantasia, Militar",
     "episodiosTotal": 12,
-    "status": "Em andamento",
+    "status": "Finalizado",
     "sinopse": "Um dia, os “Pilares” surgiram na Terra e se tornaram uma ameaça para toda a vida. O súbito aparecimento de um deus chamado Odin foi a única razão pela qual a humanidade sobreviveu. Seu método de lutar contra os Pilares era conceder o vôo por meio de “asas de herói” mecânicas às belas jovens chamadas Valquírias. Depois de muitos anos, a batalha da humanidade contra os Pilares continua no céu, com as mulheres lutando com suas asas de batalha tendo os homens como sua equipe de apoio. O Japão não é exceção, e quando um Pilar aparece no Monte Fuji, três Valquírias o enfrentam. Elas se juntam a um piloto da Europa para continuar o contra-ataque enquanto o Ragnarok se aproxima cada vez mais.",
     "trailerUrl": "https://www.youtube.com/embed/b_9kse9KnJ8",
     "adicionadoEm": "4 de maio de 2025",
