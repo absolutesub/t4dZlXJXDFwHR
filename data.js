@@ -1544,56 +1544,79 @@ episodios: [
     ],
     "episodios": [
       {
-        "numero": 1,
-        "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/8T5NPAas"
+        numero: 1,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/8T5NPAas"
         }
-      },
-      {
-        "numero": 2,
-        "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/1uKrPhit"
+    },
+    {
+        numero: 2,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/1uKrPhit"
         }
-      },
-      {
-        "numero": 3,
-        "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/HsGCFhtK"
+    },
+    {
+        numero: 3,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/HsGCFhtK"
         }
-      },
-      {
-        "numero": 4,
-        "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/kQdKzeV2"
+    },
+    {
+        numero: 4,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/kQdKzeV2"
         }
-      },
-      {
-        "numero": 5,
-        "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/nYuX7fT6"
+    },
+    {
+        numero: 5,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/nYuX7fT6"
         }
-      },
-      {
-        "numero": 6,
-        "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/znEmykWX"
+    },
+    {
+        numero: 6,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/znEmykWX"
         }
-      },
-      {
-        "numero": 7,
-        "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/aRitMDHS"
+    },
+    {
+        numero: 7,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/aRitMDHS"
         }
-      },
-      {
-        "numero": 8,
-        "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/R5zdy54E"
+    },
+    {
+        numero: 8,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/R5zdy54E"
         }
-      }
-    ]
-  },
-  {
+    },
+    {
+        numero: 9,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/6L33YjMK"
+        }
+    },
+    {
+        numero: 10,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/G8mSawoS"
+        }
+    },
+    {
+        numero: 11,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/dFznVdq4"
+        }
+    },
+    {
+        numero: 12,
+        downloads: {
+            pixeldrain: "https://pixeldrain.com/u/RLu1yr3y"
+        }
+    }
+],
+},
     "id": 16,
     "titulo": "Mini Yuri",
     "imagem": "img/id16/id16capa.webp",
