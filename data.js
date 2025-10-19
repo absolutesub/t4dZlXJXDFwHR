@@ -2257,7 +2257,7 @@ episodios: [
       {
         "numero": 1,
         "downloads": {
-          "krakenfiles": "https://krakenfiles.com/view/IbcX5I93ab/file.html"
+          "pixeldrain": "https://pixeldrain.com/u/og8P7Q5u"
         }
       }
     ]
