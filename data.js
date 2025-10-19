@@ -1,6 +1,7 @@
 const animes = [
   {
 id: 32,
+"adicionadoEm": "19 de outubro de 2025",
 titulo: " Hentatsu",
 imagem: "img/id32/id32capa.webp",
 tags: ["Aventura", "Mistério."],
