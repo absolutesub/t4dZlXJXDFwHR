@@ -1546,43 +1546,37 @@ episodios: [
       {
         "numero": 1,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/2YcTipdA",
-          "krakenfiles": "https://krakenfiles.com/view/vnbM1QF57z/file.html"
+          "pixeldrain": "https://pixeldrain.com/u/8T5NPAas"
         }
       },
       {
         "numero": 2,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/yitRdSFT",
-          "krakenfiles": "https://krakenfiles.com/view/s29mesqnc2/file.html"
+          "pixeldrain": "https://pixeldrain.com/u/1uKrPhit"
         }
       },
       {
         "numero": 3,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/hj9JCJFc",
-          "krakenfiles": "https://krakenfiles.com/view/a0HZNdU0gn/file.html"
+          "pixeldrain": "https://pixeldrain.com/u/HsGCFhtK"
         }
       },
       {
         "numero": 4,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/w983jUZB",
-          "krakenfiles": "https://krakenfiles.com/view/jdCF5vrrS0/file.html"
+          "pixeldrain": "https://pixeldrain.com/u/kQdKzeV2"
         }
       },
       {
         "numero": 5,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ztyfREDA",
-          "krakenfiles": "https://krakenfiles.com/view/aSzzHE4zTS/file.html"
+          "pixeldrain": "https://pixeldrain.com/u/nYuX7fT6"
         }
       },
       {
         "numero": 6,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/MhWJCd5R",
-          "krakenfiles": "https://krakenfiles.com/view/OjyeP1uOud/file.html"
+          "pixeldrain": "https://pixeldrain.com/u/znEmykWX"
         }
       },
       {
