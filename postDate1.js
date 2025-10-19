@@ -1,5 +1,16 @@
 const posts = [
   {
+    "id": 9994,
+    "title": "Hentatsu [BD]",
+    "link": "contentpost.html?id=9994",
+    "thumbnail": "img/PostsIMG/absolute-img-postId-9994.webp",
+    "summary": "Episódios disponíveis na página do projeto.",
+    "author": "AbsoluteSUB",
+    "date": "10-19-2025",
+    "animeId": 32,
+    "fullContent": "<p>Episódios disponíveis na página do projeto.</p><p>Aviso: Por motivo de falta der pessoal estou com problemas para deixar os episodios em dias.</p>"
+  },
+  {
     "id": 9995,
     "title": "Miru Tights [BD]",
     "link": "contentpost.html?id=9995",
