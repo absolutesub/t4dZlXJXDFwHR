@@ -1,13 +1,6 @@
 const animes = [
   {
 id: 32,
-"adicionadoEm": "19 de outubro de 2025",
-"banner": null,
-"screenshots": [
-"img/id31/shot1.webp",
-"img/id31/shot2.webp",
-"img/id31/shot3.webp"
-    ],
 titulo: " Hentatsu",
 imagem: "img/id32/id32capa.webp",
 tags: ["Aventura", "Mistério."],
@@ -17,7 +10,7 @@ episodiosTotal: 13,
 status: "Finalizado",
 sinopse: "A história acompanha duas garotas explorando uma versão aparentemente abandonada de Nakano Broadway, um shopping center de Tóquio conhecido pela Mandarake e outras lojas voltadas para fãs de anime e outras formas de cultura pop",
 trailerUrl: "https://www.youtube.com/embed/uZN1wXqpe1g",
-adicionadoEm: "12 de agosto de 2025",
+adicionadoEm: "19 de outubro de 2025",
 estudio: "Yaoyorozu",
 siteOficial: "https://hentatsu.com/",
 video: "x264 10Bit",
