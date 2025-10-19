@@ -1,5 +1,115 @@
 const animes = [
   {
+id: 0,
+titulo: " Hentatsu",
+imagem: "img/id0/id0capa.webp",
+tags: ["Aventura", "Mistério."],
+lancamento: " 2020",
+genero: "Aventura, Mistério.",
+episodiosTotal: 13,
+status: "Finalizado",
+sinopse: "A história acompanha duas garotas explorando uma versão aparentemente abandonada de Nakano Broadway, um shopping center de Tóquio conhecido pela Mandarake e outras lojas voltadas para fãs de anime e outras formas de cultura pop",
+trailerUrl: "https://youtu.be/uZN1wXqpe1g",
+adicionadoEm: "12 de agosto de 2025",
+estudio: "Yaoyorozu",
+siteOficial: "https://hentatsu.com/",
+video: "x264 10Bit",
+audio: "AAC",
+resolucao: "1080p",
+legendas: "HardSub",
+scriptOriginal: "ReinForce",
+form_url: "",
+entry_nome: "",
+entry_comentario: "",
+csv_url: "",
+screenshots: [
+    "img/id0/shot1.webp",
+    "img/id0/shot2.webp",
+    "img/id0/shot3.webp",
+],
+episodios: [
+    {
+        numero: 1,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/V5GHSvYAc5e"
+        }
+    },
+    {
+        numero: 2,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/BZbdNxDbHmg"
+        }
+    },
+    {
+        numero: 3,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/NLvd6dJAV7G"
+        }
+    },
+    {
+        numero: 4,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/NLvd6dJAV7G"
+        }
+    },
+    {
+        numero: 5,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/DBmSQDMGBj5"
+        }
+    },
+    {
+        numero: 6,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/PauCmW3eLkB"
+        }
+    },
+    {
+        numero: 7,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/ChaXf3LcD6J"
+        }
+    },
+    {
+        numero: 8,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/hnvm5qSnzXE"
+        }
+    },
+    {
+        numero: 9,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/psJfQwNaNP6"
+        }
+    },
+    {
+        numero: 10,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/4yfUm9yHc3n"
+        }
+    },
+    {
+        numero: 11,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/tZ4jyFrFD9R"
+        }
+    },
+    {
+        numero: 12,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/usTvVJkgA83"
+        }
+    },
+    {
+        numero: 13,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/PPyyehdN2rx"
+        }
+    }
+],
+},
+  
+  {
     "id": 31,
     "adicionadoEm": "09 de agosto de 2025",
     "imagem": "img/id31/id31capa.webp",
