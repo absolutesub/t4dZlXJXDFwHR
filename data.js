@@ -1582,13 +1582,13 @@ episodios: [
       {
         "numero": 7,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/5Wnqi3fi"
+          "pixeldrain": "https://pixeldrain.com/u/aRitMDHS"
         }
       },
       {
         "numero": 8,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/YVUvgG5B"
+          "pixeldrain": "https://pixeldrain.com/u/R5zdy54E"
         }
       }
     ]
