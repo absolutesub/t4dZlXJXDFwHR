@@ -23,9 +23,9 @@ entry_nome: "",
 entry_comentario: "",
 csv_url: "",
 screenshots: [
-    "img/id0/shot1.webp",
-    "img/id0/shot2.webp",
-    "img/id0/shot3.webp",
+    "img/id32/shot1.webp",
+    "img/id32/shot2.webp",
+    "img/id32/shot3.webp",
 ],
 episodios: [
     {
