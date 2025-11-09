@@ -31,7 +31,7 @@ episodios: [
     {
         numero: 1,
         downloads: {
-            Workupload: "https://workupload.com/file/V5GHSvYAc5e"
+            pixeldrain: "https://workupload.com/file/V5GHSvYAc5e"
         }
     },
     {
@@ -43,55 +43,55 @@ episodios: [
     {
         numero: 3,
         downloads: {
-            Workupload: "https://workupload.com/file/NLvd6dJAV7G"
+            pixeldrain: "https://workupload.com/file/NLvd6dJAV7G"
         }
     },
     {
         numero: 4,
         downloads: {
-            Workupload: "https://workupload.com/file/SSZSwPWnbqe"
+            pixeldrain: "https://workupload.com/file/SSZSwPWnbqe"
         }
     },
     {
         numero: 5,
         downloads: {
-            Workupload: "https://workupload.com/file/DBmSQDMGBj5"
+            pixeldrain: "https://workupload.com/file/DBmSQDMGBj5"
         }
     },
     {
         numero: 6,
         downloads: {
-            Workupload: "https://workupload.com/file/PauCmW3eLkB"
+            pixeldrain: "https://workupload.com/file/PauCmW3eLkB"
         }
     },
     {
         numero: 7,
         downloads: {
-            Workupload: "https://workupload.com/file/ChaXf3LcD6J"
+            pixeldrain: "https://workupload.com/file/ChaXf3LcD6J"
         }
     },
     {
         numero: 8,
         downloads: {
-            Workupload: "https://workupload.com/file/hnvm5qSnzXE"
+            pixeldrain: "https://workupload.com/file/hnvm5qSnzXE"
         }
     },
     {
         numero: 9,
         downloads: {
-            Workupload: "https://workupload.com/file/psJfQwNaNP6"
+            pixeldrain: "https://workupload.com/file/psJfQwNaNP6"
         }
     },
     {
         numero: 10,
         downloads: {
-            Workupload: "https://workupload.com/file/4yfUm9yHc3n"
+            pixeldrain: "https://workupload.com/file/4yfUm9yHc3n"
         }
     },
     {
         numero: 11,
         downloads: {
-            Workupload: "https://workupload.com/file/tZ4jyFrFD9R"
+            pixeldrain: "https://workupload.com/file/tZ4jyFrFD9R"
         }
     },
     {
@@ -103,7 +103,7 @@ episodios: [
     {
         numero: 13,
         downloads: {
-            Workupload: "https://workupload.com/file/PPyyehdN2rx"
+            pixeldrain: "https://workupload.com/file/PPyyehdN2rx"
         }
     }
 ]
