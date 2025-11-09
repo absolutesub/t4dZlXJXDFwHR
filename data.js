@@ -37,7 +37,7 @@ episodios: [
     {
         numero: 2,
         downloads: {
-            Workupload: "https://workupload.com/file/BZbdNxDbHmg"
+            pixeldrain: "https://workupload.com/file/BZbdNxDbHmg"
         }
     },
     {
