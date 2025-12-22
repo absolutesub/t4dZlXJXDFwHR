@@ -8,7 +8,7 @@ const posts = [
     "thumbnail": "img/PostsIMG/absolute-img-postId-9990.webp",
     "summary": "Episódios disponíveis na página do projeto.",
     "author": "AbsoluteSUB",
-    "date": "11-09-2025",
+    "date": "12-22-2025",
     "animeId": 25,
     "fullContent": "<p>Episódios disponíveis na página do projeto.</p><p>Aviso: Retraducao dos episódios.</p>"
   },
