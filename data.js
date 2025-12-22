@@ -2108,7 +2108,7 @@ episodios: [
     "lancamento": "2024",
     "genero": "Aventura",
     "episodiosTotal": 13,
-    "status": "Em andamento",
+    "status": "Finalizado",
     "sinopse": "A história segue os descendentes dos heróis da primeira parte, que agora enfrentam uma nova ameaça. A paz conquistada está prestes a ser destruída por forças que buscam ressuscitar um poder ancestral. Futari, a jovem protagonista, deve descobrir os segredos de antigas lendas, chamadas Mukashi Banashi, e desvendar os mistérios que conectam as diversas gerações. Ela terá que tomar decisões difíceis que podem moldar o futuro da humanidade.",
     "trailerUrl": "https://www.youtube.com/embed/ndROyfA1ZzU",
     "adicionadoEm": "16 de novembro de 2024",
@@ -2164,8 +2164,50 @@ episodios: [
         "downloads": {
           "pixeldrain": "https://pixeldrain.com/u/WguGBqA7"
         }
-      }
-    ]
+      },
+    {
+       "numero": 7,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ZDDVm9fq"
+        }
+      },
+    {
+      "numero": 8,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ovBawMDW"
+        }  
+      },
+      {
+      "numero": 9,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/Utuz7wvY"
+        }
+      },
+     {
+      "numero": 10,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/GWy9vAPV"
+        }
+      }, 
+     {
+      "numero": 11,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/atXuiHMj"
+        }
+      },
+      {
+      "numero": 12,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/r3uZthAR"
+        }
+      },
+     {
+        "numero": 13,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/Je3zyzK4"
+        }
+      },
+      ]
   },
   {
     "id": 26,
