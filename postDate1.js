@@ -1,6 +1,19 @@
 const posts = [
    
-  {
+  
+    {
+    "id": 9990,
+    "title": "Asatir 2 – Mirai no Mukashi Banashi - 07 ate 13",
+    "link": "contentpost.html?id=9991",
+    "thumbnail": "img/PostsIMG/absolute-img-postId-9990.webp",
+    "summary": "Episódios disponíveis na página do projeto.",
+    "author": "AbsoluteSUB",
+    "date": "11-09-2025",
+    "animeId": 25,
+    "fullContent": "<p>Episódios disponíveis na página do projeto.</p><p>Aviso: Retraducao dos episódios.</p>"
+  },
+   
+   {
     "id": 9991,
     "title": "Asatir 2 – Mirai no Mukashi Banashi - 01 ate 06",
     "link": "contentpost.html?id=9991",
