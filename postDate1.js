@@ -4,7 +4,7 @@ const posts = [
     {
     "id": 9990,
     "title": "Asatir 2 – Mirai no Mukashi Banashi - 07 ate 13",
-    "link": "contentpost.html?id=9991",
+    "link": "contentpost.html?id=9990",
     "thumbnail": "img/PostsIMG/absolute-img-postId-9990.webp",
     "summary": "Episódios disponíveis na página do projeto.",
     "author": "AbsoluteSUB",
