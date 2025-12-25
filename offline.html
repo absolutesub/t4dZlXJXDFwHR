@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - Absolute Fansub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #092635 0%, #051720 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .offline-container {
+            text-align: center;
+            max-width: 500px;
+        }
+
+        .offline-icon {
+            font-size: 80px;
+            margin-bottom: 30px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.7;
+                transform: scale(0.95);
+            }
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 15px;
+            color: #1997d3;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #9b9b9b;
+            margin-bottom: 30px;
+        }
+
+        .offline-actions {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        button, a {
+            padding: 12px 30px;
+            font-size: 16px;
+            font-family: inherit;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background-color: #1997d3;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #1687bb;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background-color: #214556;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: #193a49;
+        }
+
+        .offline-info {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(33, 69, 86, 0.3);
+            border-radius: 8px;
+            border: 1px solid #214556;
+        }
+
+        .offline-info h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #1997d3;
+        }
+
+        .offline-info ul {
+            text-align: left;
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        .offline-info li {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #9b9b9b;
+            position: relative;
+        }
+
+        .offline-info li::before {
+            content: "✓";
+            position: absolute;
+            left: -20px;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            .offline-icon {
+                font-size: 60px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            button, a {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="offline-container">
+        <div class="offline-icon">📡</div>
+        
+        <h1>Você está offline</h1>
+        
+        <p>
+            Parece que você perdeu a conexão com a internet. 
+            Não se preocupe, algumas funcionalidades ainda estão disponíveis!
+        </p>
+
+        <div class="offline-actions">
+            <button class="btn-primary" onclick="location.reload()">
+                🔄 Tentar Novamente
+            </button>
+            <a href="/" class="btn-secondary">
+                🏠 Voltar ao Início
+            </a>
+        </div>
+
+        <div class="offline-info">
+            <h3>📦 Disponível offline:</h3>
+            <ul>
+                <li>Páginas visualizadas recentemente</li>
+                <li>Lista de animes em cache</li>
+                <li>Seus favoritos salvos</li>
+                <li>Configurações de tema</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Verifica conexão a cada 5 segundos
+        setInterval(() => {
+            if (navigator.onLine) {
+                location.reload();
+            }
+        }, 5000);
+
+        // Adiciona atalho de teclado
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'r' || e.key === 'R') {
+                location.reload();
+            }
+        });
+    </script>
+</body>
+</html>
