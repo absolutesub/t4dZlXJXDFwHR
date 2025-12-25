@@ -1033,7 +1033,80 @@ episodios: [
       "img/id10/shot2.webp",
       "img/id10/shot3.webp"
     ],
-    "episodios": []
+    "episodios": [
+      {
+        "numero": 1,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo1"
+        }
+      },
+      {
+        "numero": 2,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo2"
+        }
+      },
+      {
+        "numero": 3,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo3"
+        }
+      },
+      {
+        "numero": 4,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo4"
+        }
+      },
+      {
+        "numero": 5,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo5"
+        }
+      },
+      {
+        "numero": 6,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo6"
+        }
+      },
+      {
+        "numero": 7,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo7"
+        }
+      },
+      {
+        "numero": 8,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo8"
+        }
+      },
+      {
+        "numero": 9,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo9"
+        }
+      },
+      {
+        "numero": 10,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo10"
+        }
+      },
+      {
+        "numero": 11,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo11"
+        }
+      },
+      {
+        "numero": 12,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/ejemplo12"
+        }
+      }
+    ]
   },
   {
     "id": 11,
