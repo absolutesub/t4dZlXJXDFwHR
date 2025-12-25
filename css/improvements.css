@@ -1,0 +1,571 @@
+/**
+ * ABSOLUTE FANSUB - MELHORIAS E NOVOS ESTILOS
+ * Estilos adicionais para funcionalidades novas
+ */
+
+/* ==================== SISTEMA DE NOTIFICAÇÕES ==================== */
+.notification {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    z-index: 10000;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    animation: slideIn 0.3s ease-out;
+    font-family: "Poppins", sans-serif;
+}
+
+.notification-message {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.notification-close {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.notification-close:hover {
+    opacity: 1;
+}
+
+.notification-error {
+    background-color: #dc3545;
+    color: white;
+}
+
+.notification-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.notification-warning {
+    background-color: #ffa807;
+    color: white;
+}
+
+.notification-info {
+    background-color: #1997d3;
+    color: white;
+}
+
+.notification.fade-out {
+    animation: slideOut 0.3s ease-in;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .notification {
+        top: 90px;
+        right: 10px;
+        left: 10px;
+        min-width: auto;
+        max-width: none;
+    }
+}
+
+/* ==================== BOTÃO DE FAVORITOS ==================== */
+.favorite-btn {
+    background: none;
+    border: 2px solid #214556;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.favorite-btn:hover {
+    background-color: #214556;
+}
+
+.favorite-btn.active {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.favorite-btn.active:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+.favorite-icon {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+/* ==================== TOGGLE DE TEMA ==================== */
+.theme-toggle {
+    background: #214556;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    height: 44px;
+}
+
+.theme-toggle:hover {
+    background-color: #193a49;
+}
+
+.theme-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+/* ==================== LAZY LOADING ==================== */
+img[data-src] {
+    background: linear-gradient(90deg, #214556 0%, #2d5a6e 50%, #214556 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+img.loaded {
+    animation: fadeInImage 0.5s ease-in;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+@keyframes fadeInImage {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* ==================== MODO CLARO (OPCIONAL) ==================== */
+[data-theme="light"] body {
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+[data-theme="light"] .container {
+    background-color: #ffffff;
+}
+
+[data-theme="light"] .navbar-container {
+    background-color: #ffffff;
+    border-bottom-color: #e0e0e0;
+}
+
+[data-theme="light"] .main-nav ul li a {
+    color: #333333;
+}
+
+[data-theme="light"] .banner-section,
+[data-theme="light"] .post-container,
+[data-theme="light"] .episodios-an,
+[data-theme="light"] .media-sections,
+[data-theme="light"] section.recrutamento,
+[data-theme="light"] .post-detail-container {
+    background-color: #ffffff;
+    border-color: #e0e0e0;
+}
+
+[data-theme="light"] .post-card,
+[data-theme="light"] .details-table,
+[data-theme="light"] .comentario,
+[data-theme="light"] .project-item {
+    background-color: #f9f9f9;
+    border-color: #e0e0e0;
+}
+
+[data-theme="light"] input,
+[data-theme="light"] textarea {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    color: #333333;
+}
+
+[data-theme="light"] .anime-card {
+    border-color: #e0e0e0;
+}
+
+/* ==================== BUSCA AVANÇADA ==================== */
+.search-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+    background-color: #08202c;
+    border: 2px solid #214556;
+    margin-bottom: 10px;
+}
+
+.search-filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.search-filter-label {
+    font-size: 12px;
+    color: #9b9b9b;
+    font-weight: 500;
+}
+
+.search-filter-input {
+    padding: 8px 12px;
+    border: 1px solid #214556;
+    background-color: #051720;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.search-filter-input:focus {
+    outline: none;
+    border-color: #1997d3;
+}
+
+/* ==================== FILTROS ATIVOS ==================== */
+.active-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px 15px;
+    background-color: #08202c;
+    border: 2px solid #214556;
+    border-top: none;
+    margin-bottom: 10px;
+}
+
+.filter-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px;
+    background-color: #1997d3;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.filter-tag-remove {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1;
+}
+
+/* ==================== BADGES MELHORADOS ==================== */
+.badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-new {
+    background-color: #ff4757;
+    color: white;
+    animation: pulse 2s infinite;
+}
+
+.badge-popular {
+    background-color: #ffa502;
+    color: white;
+}
+
+.badge-featured {
+    background-color: #5f27cd;
+    color: white;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+/* ==================== SKELETON LOADING ==================== */
+.skeleton {
+    background: linear-gradient(90deg, #214556 0%, #2d5a6e 50%, #214556 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+}
+
+.skeleton-card {
+    height: 300px;
+    margin: 8px;
+}
+
+.skeleton-text {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+/* ==================== SCROLL TO TOP ==================== */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #1997d3;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+    z-index: 1000;
+}
+
+.scroll-to-top:hover {
+    background-color: #1687bb;
+    transform: translateY(-5px);
+}
+
+.scroll-to-top.visible {
+    display: flex;
+}
+
+.scroll-to-top svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+@media (max-width: 768px) {
+    .scroll-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* ==================== MELHORIAS DE ACESSIBILIDADE ==================== */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.focus-visible:focus {
+    outline: 2px solid #1997d3;
+    outline-offset: 2px;
+}
+
+/* ==================== ESTADOS DE ERRO ==================== */
+.error-state {
+    padding: 40px;
+    text-align: center;
+    background-color: #08202c;
+    border: 2px solid #214556;
+    margin: 20px;
+}
+
+.error-state-icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.error-state-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.error-state-message {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-bottom: 20px;
+}
+
+.error-state-action {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1997d3;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.error-state-action:hover {
+    background-color: #1687bb;
+}
+
+/* ==================== OFFLINE INDICATOR ==================== */
+.offline-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #dc3545;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 10000;
+    font-size: 14px;
+    display: none;
+}
+
+.offline-indicator.show {
+    display: block;
+}
+
+/* ==================== PWA INSTALL PROMPT ==================== */
+.pwa-install-prompt {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #08202c;
+    border-top: 2px solid #214556;
+    padding: 15px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    z-index: 9999;
+}
+
+.pwa-install-prompt.show {
+    display: flex;
+}
+
+.pwa-install-content {
+    flex: 1;
+}
+
+.pwa-install-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.pwa-install-text {
+    font-size: 13px;
+    color: #9b9b9b;
+}
+
+.pwa-install-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.pwa-install-button {
+    padding: 8px 16px;
+    background-color: #1997d3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s;
+}
+
+.pwa-install-button:hover {
+    background-color: #1687bb;
+}
+
+.pwa-install-dismiss {
+    padding: 8px 16px;
+    background-color: transparent;
+    color: #9b9b9b;
+    border: 1px solid #214556;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 768px) {
+    .pwa-install-prompt {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .pwa-install-actions {
+        width: 100%;
+    }
+    
+    .pwa-install-button,
+    .pwa-install-dismiss {
+        flex: 1;
+    }
+  }
+  
