@@ -1,5 +1,0 @@
-
-:root{--bg:#0f1020;--primary:#7b2cbf;--accent:#9d4edd;--text:#fff}
-body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial}
-button{background:var(--primary);color:#fff;border:none;padding:12px 16px;border-radius:8px}
-button:hover{background:var(--accent)}
