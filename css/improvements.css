@@ -104,67 +104,6 @@
     }
 }
 
-/* ==================== BOTÃO DE FAVORITOS ==================== */
-.favorite-btn {
-    background: none;
-    border: 2px solid #214556;
-    padding: 8px 12px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    transition: all 0.3s;
-    font-weight: 500;
-}
-
-.favorite-btn:hover {
-    background-color: #214556;
-}
-
-.favorite-btn.active {
-    background-color: #dc3545;
-    border-color: #dc3545;
-}
-
-.favorite-btn.active:hover {
-    background-color: #c82333;
-    border-color: #c82333;
-}
-
-.favorite-icon {
-    width: 18px;
-    height: 18px;
-    fill: currentColor;
-}
-
-/* ==================== TOGGLE DE TEMA ==================== */
-.theme-toggle {
-    background: #214556;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    color: #ffffff;
-    font-size: 14px;
-    transition: background-color 0.3s;
-    height: 44px;
-}
-
-.theme-toggle:hover {
-    background-color: #193a49;
-}
-
-.theme-icon {
-    width: 20px;
-    height: 20px;
-    fill: currentColor;
-}
-
 /* ==================== LAZY LOADING ==================== */
 img[data-src] {
     background: linear-gradient(90deg, #214556 0%, #2d5a6e 50%, #214556 100%);
@@ -194,53 +133,6 @@ img.loaded {
     }
 }
 
-/* ==================== MODO CLARO (OPCIONAL) ==================== */
-[data-theme="light"] body {
-    background-color: #f5f5f5;
-    color: #333333;
-}
-
-[data-theme="light"] .container {
-    background-color: #ffffff;
-}
-
-[data-theme="light"] .navbar-container {
-    background-color: #ffffff;
-    border-bottom-color: #e0e0e0;
-}
-
-[data-theme="light"] .main-nav ul li a {
-    color: #333333;
-}
-
-[data-theme="light"] .banner-section,
-[data-theme="light"] .post-container,
-[data-theme="light"] .episodios-an,
-[data-theme="light"] .media-sections,
-[data-theme="light"] section.recrutamento,
-[data-theme="light"] .post-detail-container {
-    background-color: #ffffff;
-    border-color: #e0e0e0;
-}
-
-[data-theme="light"] .post-card,
-[data-theme="light"] .details-table,
-[data-theme="light"] .comentario,
-[data-theme="light"] .project-item {
-    background-color: #f9f9f9;
-    border-color: #e0e0e0;
-}
-
-[data-theme="light"] input,
-[data-theme="light"] textarea {
-    background-color: #ffffff;
-    border-color: #cccccc;
-    color: #333333;
-}
-
-[data-theme="light"] .anime-card {
-    border-color: #e0e0e0;
-}
 
 /* ==================== BUSCA AVANÇADA ==================== */
 .search-filters {
@@ -277,39 +169,6 @@ img.loaded {
 .search-filter-input:focus {
     outline: none;
     border-color: #1997d3;
-}
-
-/* ==================== FILTROS ATIVOS ==================== */
-.active-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 10px 15px;
-    background-color: #08202c;
-    border: 2px solid #214556;
-    border-top: none;
-    margin-bottom: 10px;
-}
-
-.filter-tag {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    padding: 4px 10px;
-    background-color: #1997d3;
-    color: white;
-    border-radius: 4px;
-    font-size: 12px;
-}
-
-.filter-tag-remove {
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    padding: 0;
-    font-size: 16px;
-    line-height: 1;
 }
 
 /* ==================== BADGES MELHORADOS ==================== */
