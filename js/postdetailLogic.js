@@ -86,3 +86,5 @@ document.addEventListener('DOMContentLoaded', () => {
         if (postImageElement) postImageElement.remove(); // Garante que a imagem não apareça
     }
 });
+
+if (!post) { window.location.href = '404.html'; return; }
