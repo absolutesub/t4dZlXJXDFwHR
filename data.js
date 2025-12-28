@@ -1,6 +1,157 @@
 const animes = [
+  {
+id: 32,
+titulo: " Hentatsu",
+imagem: "img/id32/id32capa.webp",
+tags: ["Aventura", "Mistério."],
+lancamento: " 2020",
+genero: "Aventura, Mistério.",
+episodiosTotal: 13,
+status: "Finalizado",
+sinopse: "A história acompanha duas garotas explorando uma versão aparentemente abandonada de Nakano Broadway, um shopping center de Tóquio conhecido pela Mandarake e outras lojas voltadas para fãs de anime e outras formas de cultura pop",
+trailerUrl: "https://www.youtube.com/embed/uZN1wXqpe1g",
+adicionadoEm: "19 de outubro de 2025",
+estudio: "Yaoyorozu",
+siteOficial: "https://hentatsu.com/",
+video: "x264 10Bit",
+audio: "AAC",
+resolucao: "1080p",
+legendas: "HardSub",
+scriptOriginal: "ReinForce",
+form_url: "",
+entry_nome: "",
+entry_comentario: "",
+csv_url: "",
+screenshots: [
+    "img/id32/shot1.webp",
+    "img/id32/shot2.webp",
+    "img/id32/shot3.webp",
+],
+episodios: [
+    {
+        numero: 1,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/V5GHSvYAc5e"
+        }
+    },
+    {
+        numero: 2,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/BZbdNxDbHmg"
+        }
+    },
+    {
+        numero: 3,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/NLvd6dJAV7G"
+        }
+    },
+    {
+        numero: 4,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/SSZSwPWnbqe"
+        }
+    },
+    {
+        numero: 5,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/DBmSQDMGBj5"
+        }
+    },
+    {
+        numero: 6,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/PauCmW3eLkB"
+        }
+    },
+    {
+        numero: 7,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/ChaXf3LcD6J"
+        }
+    },
+    {
+        numero: 8,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/hnvm5qSnzXE"
+        }
+    },
+    {
+        numero: 9,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/psJfQwNaNP6"
+        }
+    },
+    {
+        numero: 10,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/4yfUm9yHc3n"
+        }
+    },
+    {
+        numero: 11,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/tZ4jyFrFD9R"
+        }
+    },
+    {
+        numero: 12,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/usTvVJkgA83"
+        }
+    },
+    {
+        numero: 13,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/PPyyehdN2rx"
+        }
+    }
+]
+},
   
-   {
+  {
+    "id": 31,
+    "adicionadoEm": "09 de agosto de 2025",
+    "imagem": "img/id31/id31capa.webp",
+    "banner": null,
+    "screenshots": [
+      "img/id31/shot1.webp",
+      "img/id31/shot2.webp",
+      "img/id31/shot3.webp"
+    ],
+    "episodios": [
+      {
+        "numero": 1,
+        "downloads": {
+          "pixeldrain": "https://pixeldrain.com/u/PbeGEvDa"
+        }
+      }
+    ],
+    "titulo": "YuruYuri Ten OVA",
+    "genero": "Escolar, Shoujo Ai, Slice of Life",
+    "tags": [
+      "Escolar",
+      "Shoujo Ai",
+      "Slice of Life"
+    ],
+    "lancamento": "2019",
+    "sinopse": "OVA em comemoração ao 10º aniversário do mangá.",
+    "status": "Finalizado",
+    "estudio": "Lay-duce",
+    "resolucao": "720p",
+    "video": "x264 10Bit",
+    "audio": "AAC",
+    "legendas": "HardSub",
+    "scriptOriginal": "GJM",
+    "siteOficial": "https://yuruyuri.com/10th/",
+    "trailerUrl": "https://www.youtube.com/embed/4elmGs7pKU0",
+    "form_url": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf4QYY43BzrdKFCosYvgkUZ506vtCeNtqjGhK-72npQnel4MA/formResponse",
+    "entry_nome": "entry.2147039044",
+    "entry_comentario": "entry.2118240938",
+    "csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQafQEKpDIEp9Hnhv6PjDOAJzegABFtis8OGet4lmSIo8X9WPvIRbW3ATsCYPdCFIiqphT8ZuchvS1y/pub?gid=480738251&single=true&output=csv",
+    "episodiosTotal": 1
+  },
+  {
     "id": 1,
     "titulo": "Nanabun no Nijyuuni",
     "imagem": "img/id1/id1capa.webp",
@@ -2332,158 +2483,5 @@ const animes = [
         }
       }
     ]
-  },
-
-    {
-id: 32,
-titulo: " Hentatsu",
-imagem: "img/id32/id32capa.webp",
-tags: ["Aventura", "Mistério."],
-lancamento: " 2020",
-genero: "Aventura, Mistério.",
-episodiosTotal: 13,
-status: "Finalizado",
-sinopse: "A história acompanha duas garotas explorando uma versão aparentemente abandonada de Nakano Broadway, um shopping center de Tóquio conhecido pela Mandarake e outras lojas voltadas para fãs de anime e outras formas de cultura pop",
-trailerUrl: "https://www.youtube.com/embed/uZN1wXqpe1g",
-adicionadoEm: "19 de outubro de 2025",
-estudio: "Yaoyorozu",
-siteOficial: "https://hentatsu.com/",
-video: "x264 10Bit",
-audio: "AAC",
-resolucao: "1080p",
-legendas: "HardSub",
-scriptOriginal: "ReinForce",
-form_url: "",
-entry_nome: "",
-entry_comentario: "",
-csv_url: "",
-screenshots: [
-    "img/id32/shot1.webp",
-    "img/id32/shot2.webp",
-    "img/id32/shot3.webp",
-],
-episodios: [
-    {
-        numero: 1,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/V5GHSvYAc5e"
-        }
-    },
-    {
-        numero: 2,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/BZbdNxDbHmg"
-        }
-    },
-    {
-        numero: 3,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/NLvd6dJAV7G"
-        }
-    },
-    {
-        numero: 4,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/SSZSwPWnbqe"
-        }
-    },
-    {
-        numero: 5,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/DBmSQDMGBj5"
-        }
-    },
-    {
-        numero: 6,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/PauCmW3eLkB"
-        }
-    },
-    {
-        numero: 7,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/ChaXf3LcD6J"
-        }
-    },
-    {
-        numero: 8,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/hnvm5qSnzXE"
-        }
-    },
-    {
-        numero: 9,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/psJfQwNaNP6"
-        }
-    },
-    {
-        numero: 10,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/4yfUm9yHc3n"
-        }
-    },
-    {
-        numero: 11,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/tZ4jyFrFD9R"
-        }
-    },
-    {
-        numero: 12,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/usTvVJkgA83"
-        }
-    },
-    {
-        numero: 13,
-        downloads: {
-            pixeldrain: "https://workupload.com/file/PPyyehdN2rx"
-        }
-    }
-]
-},
-  
-  {
-    "id": 31,
-    "adicionadoEm": "09 de agosto de 2025",
-    "imagem": "img/id31/id31capa.webp",
-    "banner": null,
-    "screenshots": [
-      "img/id31/shot1.webp",
-      "img/id31/shot2.webp",
-      "img/id31/shot3.webp"
-    ],
-    "episodios": [
-      {
-        "numero": 1,
-        "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/PbeGEvDa"
-        }
-      }
-    ],
-    "titulo": "YuruYuri Ten OVA",
-    "genero": "Escolar, Shoujo Ai, Slice of Life",
-    "tags": [
-      "Escolar",
-      "Shoujo Ai",
-      "Slice of Life"
-    ],
-    "lancamento": "2019",
-    "sinopse": "OVA em comemoração ao 10º aniversário do mangá.",
-    "status": "Finalizado",
-    "estudio": "Lay-duce",
-    "resolucao": "720p",
-    "video": "x264 10Bit",
-    "audio": "AAC",
-    "legendas": "HardSub",
-    "scriptOriginal": "GJM",
-    "siteOficial": "https://yuruyuri.com/10th/",
-    "trailerUrl": "https://www.youtube.com/embed/4elmGs7pKU0",
-    "form_url": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf4QYY43BzrdKFCosYvgkUZ506vtCeNtqjGhK-72npQnel4MA/formResponse",
-    "entry_nome": "entry.2147039044",
-    "entry_comentario": "entry.2118240938",
-    "csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQafQEKpDIEp9Hnhv6PjDOAJzegABFtis8OGet4lmSIo8X9WPvIRbW3ATsCYPdCFIiqphT8ZuchvS1y/pub?gid=480738251&single=true&output=csv",
-    "episodiosTotal": 1
-  },
+  }
 ];
