@@ -140,69 +140,6 @@ function getFromLocalStorage(key, defaultValue = null) {
     }
 }
 
-// ==================== SISTEMA DE FAVORITOS ====================
-
-/**
- * Adiciona/remove anime dos favoritos
- * @param {number} animeId
- * @returns {boolean} - true se adicionado, false se removido
- */
-function toggleFavorite(animeId) {
-    const favorites = getFromLocalStorage('favorites', []);
-    const index = favorites.indexOf(animeId);
-    
-    if (index > -1) {
-        favorites.splice(index, 1);
-        showNotification('Removido dos favoritos!', 'info');
-        return false;
-    } else {
-        favorites.push(animeId);
-        showNotification('Adicionado aos favoritos!', 'success');
-        return true;
-    }
-    
-    saveToLocalStorage('favorites', favorites);
-}
-
-/**
- * Verifica se anime está nos favoritos
- * @param {number} animeId
- */
-function isFavorite(animeId) {
-    const favorites = getFromLocalStorage('favorites', []);
-    return favorites.includes(animeId);
-}
-
-/**
- * Retorna lista de animes favoritos
- */
-function getFavorites() {
-    return getFromLocalStorage('favorites', []);
-}
-
-// ==================== MODO ESCURO/CLARO ====================
-
-/**
- * Alterna entre modo escuro e claro
- */
-function toggleTheme() {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-    
-    document.documentElement.setAttribute('data-theme', newTheme);
-    saveToLocalStorage('theme', newTheme);
-    
-    return newTheme;
-}
-
-/**
- * Inicializa tema salvo
- */
-function initTheme() {
-    const savedTheme = getFromLocalStorage('theme', 'dark');
-    document.documentElement.setAttribute('data-theme', savedTheme);
-}
-
 // ==================== PERFORMANCE ====================
 
 /**
@@ -361,10 +298,6 @@ window.AbsoluteUtils = {
     tryCatch,
     saveToLocalStorage,
     getFromLocalStorage,
-    toggleFavorite,
-    isFavorite,
-    getFavorites,
-    toggleTheme,
     debounce,
     throttle,
     formatDate,
