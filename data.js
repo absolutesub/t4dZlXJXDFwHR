@@ -31,79 +31,79 @@ episodios: [
     {
         numero: 1,
         downloads: {
-            pixeldrain: "https://workupload.com/file/V5GHSvYAc5e"
+            workupload: "https://workupload.com/file/V5GHSvYAc5e"
         }
     },
     {
         numero: 2,
         downloads: {
-            pixeldrain: "https://workupload.com/file/BZbdNxDbHmg"
+            workupload: "https://workupload.com/file/BZbdNxDbHmg"
         }
     },
     {
         numero: 3,
         downloads: {
-            pixeldrain: "https://workupload.com/file/NLvd6dJAV7G"
+            workupload: "https://workupload.com/file/NLvd6dJAV7G"
         }
     },
     {
         numero: 4,
         downloads: {
-            pixeldrain: "https://workupload.com/file/SSZSwPWnbqe"
+            workupload: "https://workupload.com/file/SSZSwPWnbqe"
         }
     },
     {
         numero: 5,
         downloads: {
-            pixeldrain: "https://workupload.com/file/DBmSQDMGBj5"
+            workupload: "https://workupload.com/file/DBmSQDMGBj5"
         }
     },
     {
         numero: 6,
         downloads: {
-            pixeldrain: "https://workupload.com/file/PauCmW3eLkB"
+            workupload: "https://workupload.com/file/PauCmW3eLkB"
         }
     },
     {
         numero: 7,
         downloads: {
-            pixeldrain: "https://workupload.com/file/ChaXf3LcD6J"
+            workupload: "https://workupload.com/file/ChaXf3LcD6J"
         }
     },
     {
         numero: 8,
         downloads: {
-            pixeldrain: "https://workupload.com/file/hnvm5qSnzXE"
+            workupload: "https://workupload.com/file/hnvm5qSnzXE"
         }
     },
     {
         numero: 9,
         downloads: {
-            pixeldrain: "https://workupload.com/file/psJfQwNaNP6"
+            workupload: "https://workupload.com/file/psJfQwNaNP6"
         }
     },
     {
         numero: 10,
         downloads: {
-            pixeldrain: "https://workupload.com/file/4yfUm9yHc3n"
+            workupload: "https://workupload.com/file/4yfUm9yHc3n"
         }
     },
     {
         numero: 11,
         downloads: {
-            pixeldrain: "https://workupload.com/file/tZ4jyFrFD9R"
+            workupload: "https://workupload.com/file/tZ4jyFrFD9R"
         }
     },
     {
         numero: 12,
         downloads: {
-            pixeldrain: "https://workupload.com/file/usTvVJkgA83"
+            workupload: "https://workupload.com/file/usTvVJkgA83"
         }
     },
     {
         numero: 13,
         downloads: {
-            pixeldrain: "https://workupload.com/file/PPyyehdN2rx"
+            workupload: "https://workupload.com/file/PPyyehdN2rx"
         }
     }
 ]
