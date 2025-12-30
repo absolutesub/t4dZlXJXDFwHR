@@ -139,6 +139,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 chave: 'krakenfiles',
                 nome: 'KrakenFiles',
                 icone: '<img src="img/assets/krakenfiles.png" alt="KrakenFiles" style="height: 0.9em;" />'
+
+            },
+                
+            {   chave: 'workupload',    
+                nome: 'WorkUpload',    
+                icone: '<img src="img/assets/Workupload.png" alt="WorkUpload" style="height: 1.1em; width: 1.1em;" />'
             },
         ];
 
