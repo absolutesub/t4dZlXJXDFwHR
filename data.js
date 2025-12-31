@@ -1037,73 +1037,73 @@ episodios: [
       {
         "numero": 1,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo1"
+          "workupload": "https://workupload.com/file/nhCXDza2etW"
         }
       },
       {
         "numero": 2,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo2"
+          "workupload": "https://workupload.com/file/aW8acNQRSTB"
         }
       },
       {
         "numero": 3,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo3"
+          "workupload": "https://workupload.com/file/TD3kaQFxH8B"
         }
       },
       {
         "numero": 4,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo4"
+          "workupload": "https://workupload.com/file/r7NvcbRhkmz"
         }
       },
       {
         "numero": 5,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo5"
+          "workupload": "https://workupload.com/file/BbSvPGKFPpN"
         }
       },
       {
         "numero": 6,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo6"
+          "workupload": "https://workupload.com/file/E6TMJesGhY4"
         }
       },
       {
         "numero": 7,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo7"
+          "workupload": "https://workupload.com/file/sD6BuwyFtde"
         }
       },
       {
         "numero": 8,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo8"
+          "workupload": "https://workupload.com/file/CVZetsXzcGx"
         }
       },
       {
         "numero": 9,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo9"
+          "workupload": "https://workupload.com/file/Dc7awdb3BSc"
         }
       },
       {
         "numero": 10,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo10"
+          "workupload": "https://workupload.com/file/g9UKBVgrhEA"
         }
       },
       {
         "numero": 11,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo11"
+          "workupload": "https://workupload.com/file/qPVF2QvzNCd"
         }
       },
       {
         "numero": 12,
         "downloads": {
-          "pixeldrain": "https://pixeldrain.com/u/ejemplo12"
+          "workupload": "https://workupload.com/file/FFktSuqtDNA"
         }
       }
     ]
