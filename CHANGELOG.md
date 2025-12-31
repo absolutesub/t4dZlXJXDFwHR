@@ -1,4 +1,4 @@
-# Changelog
+# Atualizações
 
 Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 
@@ -7,3 +7,13 @@ Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 - Bugs no site Fix
 ### Adicionado
 - Novo servidor de downloads workupload
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Animes com episódios reupado
+
+
+## [Kami-tachi ni Hirowareta Otoko] - 31-12-2025
+### Novo servidor de download
+- Workupload
