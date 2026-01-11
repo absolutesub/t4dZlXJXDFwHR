@@ -1,2 +1,6 @@
+# wrangler.toml para site estático
 name = "t4dzlxjxdfwhr"
-compatibility_date = "2026-01-10"
+compatibility_date = "2026-01-01"
+
+# Indica onde estão os arquivos estáticos prontos
+pages_build_output_dir = "./"
