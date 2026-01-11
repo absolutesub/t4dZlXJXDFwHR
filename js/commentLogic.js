@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const palavrasProibidasAnimes = [
-    "fdp", "fila da puta", "filha da puta", "pau no cu", "cuzão", "merdinha", "cu", "buceta",
+    "fdp", "filho da puta", "filha da puta", "pau no cu", "cuzão", "merdinha", "cu", "buceta",
     "lixo", "verme", "nojento", "nojenta", "inútil", "retardado", "retardada",
     "inferno", "maldito", "maldita", "desgraçado", "desgraçada", "energúmeno",
     "piranha", "sirigaita", "quenga", "arrombado", "arrombada",
