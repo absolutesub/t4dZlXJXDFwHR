@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <footer class="site-footer f-mob">
           <div class="footer-content">
             <img src="img/assets/absolute-logo-small.png" alt="logo-small" class="logo-footer" loading="lazy">
-            <p>© 2026 · <strong>Absolute Fansub</strong></p>
+            <p>© 2026 · <strong>Absolute Fansub</strong><p>Desenvolvido por ivandesk<\p></p>
             <p>Todo conteúdo encontrado neste site são propriedade de seus editores e autores. As traduções são fanservice com a intenção de divulgação da obra para o português brasileiro.</p>
             <p>Caso você goste de alguma das obras aqui lançadas, recomenda-se que adquira o produto oficial, seja ele de origem japonesa ou se licenciado no Brasil.</p>
             <p>Site sem fins lucrativos ou uso comercial – <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="license-link">Compartilhamento pela licença (BY-NC-SA)</a>.</p>
