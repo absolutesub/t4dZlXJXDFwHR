@@ -2,6 +2,12 @@
 
 Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 
+
+## [0.0.3] 11-01-2026
+
+### Adicionado
+- Página 404.html
+
 ## [0.0.2] 08-01-2026
 
 ### Removidos arquivos 
