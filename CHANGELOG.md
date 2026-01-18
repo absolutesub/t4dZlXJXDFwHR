@@ -29,3 +29,4 @@ Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 ## [Kami-tachi ni Hirowareta Otoko] - 31-12-2025
 ### Novo servidor de download
 - Workupload
+- Corrigido as sequência do downloads dos episódios que estava errada [17-01-2025]
