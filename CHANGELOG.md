@@ -25,7 +25,10 @@ Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 
 # Animes com episódios reupado
 
-
+## [Masamune Datenicle] - 22-01-2026
+### Novo servidor de download
+- Keep2Share
+  
 ## [Kami-tachi ni Hirowareta Otoko] - 31-12-2025
 ### Novo servidor de download
 - Workupload
