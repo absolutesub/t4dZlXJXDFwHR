@@ -1543,42 +1543,42 @@ episodios: [
         "numero": 1,
         "downloads": {
           "pixeldrain": "https://pixeldrain.com/u/U6o6PKVJ",
-          "krakenfiles": "https://k2s.cc/file/c54877a158756/%5BAbsolute%5D_Masamune%20Datenicle%20-%2001%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5BA3282FDD%5D.mp4"
+          "Keep2Share": "https://k2s.cc/file/c54877a158756/%5BAbsolute%5D_Masamune%20Datenicle%20-%2001%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5BA3282FDD%5D.mp4"
         }
       },
       {
         "numero": 2,
         "downloads": {
           "pixeldrain": "https://pixeldrain.com/u/W6ovtvy1",
-          "krakenfiles": "https://k2s.cc/file/2d99715fd28f4/%5BAbsolute%5D_Masamune%20Datenicle%20-%2002%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5B912AFFD0%5D.mp4"
+          "Keep2Share": "https://k2s.cc/file/2d99715fd28f4/%5BAbsolute%5D_Masamune%20Datenicle%20-%2002%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5B912AFFD0%5D.mp4"
         }
       },
       {
         "numero": 3,
         "downloads": {
           "pixeldrain": "https://pixeldrain.com/u/PRYpA23q",
-          "krakenfiles": "https://k2s.cc/file/537a0a06e01d5/%5BAbsolute%5D_Masamune%20Datenicle%20-%2003%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5B49D2BEFC%5D.mp4"
+          "Keep2Share": "https://k2s.cc/file/537a0a06e01d5/%5BAbsolute%5D_Masamune%20Datenicle%20-%2003%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5B49D2BEFC%5D.mp4"
         }
       },
       {
         "numero": 4,
         "downloads": {
           "pixeldrain": "https://pixeldrain.com/u/z2L37Xf6",
-          "krakenfiles": "https://k2s.cc/file/ff0b512c3b812/%5BAbsolute%5D_Masamune%20Datenicle%20-%2004%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5BF254DA62%5D.mp4"
+          "Keep2Share": "https://k2s.cc/file/ff0b512c3b812/%5BAbsolute%5D_Masamune%20Datenicle%20-%2004%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5BF254DA62%5D.mp4"
         }
       },
       {
         "numero": 5,
         "downloads": {
           "pixeldrain": "https://pixeldrain.com/u/UGXGSQSY",
-          "krakenfiles": "https://k2s.cc/file/1be047225fac1/%5BAbsolute%5D_Masamune%20Datenicle%20-%2005%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5B67A6694B%5D.mp4"
+          "Keep2Share": "https://k2s.cc/file/1be047225fac1/%5BAbsolute%5D_Masamune%20Datenicle%20-%2005%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5B67A6694B%5D.mp4"
         }
       },
       {
         "numero": 6,
         "downloads": {
           "pixeldrain": "https://pixeldrain.com/u/BJjW3Kin",
-          "krakenfiles": "https://k2s.cc/file/ea057e7b8724a/%5BAbsolute%5D_Masamune%20Datenicle%20-%2006%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5B296233E6%5D.mp4"
+          "Keep2Share": "https://k2s.cc/file/ea057e7b8724a/%5BAbsolute%5D_Masamune%20Datenicle%20-%2006%20%5BYT%5D%5B720p%5D%5Bx264%5D%5BAAC%5D%5B296233E6%5D.mp4"
         }
       }
     ]
