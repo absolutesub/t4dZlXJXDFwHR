@@ -2,6 +2,10 @@
 
 Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 
+## [0.0.4] 08-02-2026
+
+### Corrigido
+- Bugs nos postes
 
 ## [0.0.3] 11-01-2026
 
