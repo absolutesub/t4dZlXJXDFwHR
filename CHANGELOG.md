@@ -25,6 +25,10 @@ Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 
 # Animes com episódios reupado
 
+## [Maou-sama, Retry!] - 08-02-2026
+### Novo servidor de download
+- Workupload
+
 ## [Masamune Datenicle] - 22-01-2026
 ### Novo servidor de download
 - Keep2Share
