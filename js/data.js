@@ -1144,73 +1144,73 @@ episodios: [
       {
         "numero": 1,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/ArAWXyURJjE"
+          "workupload": "https://workupload.com/file/ArAWXyURJjE"
         }
       },
       {
         "numero": 2,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/evdwKt3YuFM"
+          "workupload": "https://workupload.com/file/evdwKt3YuFM"
         }
       },
       {
         "numero": 3,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/gKTCHJcGvnc"
+          "workupload": "https://workupload.com/file/gKTCHJcGvnc"
         }
       },
       {
         "numero": 4,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/pACZgRuWmqW"
+          "workupload": "https://workupload.com/file/pACZgRuWmqW"
         }
       },
       {
         "numero": 5,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/sHnLVU6Bukp"
+          "workupload": "https://workupload.com/file/sHnLVU6Bukp"
         }
       },
       {
         "numero": 6,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/E6tryUpSjkh"
+          "workupload": "https://workupload.com/file/E6tryUpSjkh"
         }
       },
       {
         "numero": 7,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/NGg6R3HzFFu"
+          "workupload": "https://workupload.com/file/NGg6R3HzFFu"
         }
       },
       {
         "numero": 8,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/cvZrrWW5HQL"
+          "workupload": "https://workupload.com/file/cvZrrWW5HQL"
         }
       },
       {
         "numero": 9,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/A39wmZmNcFE"
+          "workupload": "https://workupload.com/file/A39wmZmNcFE"
         }
       },
       {
         "numero": 10,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/9qb7ubAVy4E"
+          "workupload": "https://workupload.com/file/9qb7ubAVy4E"
         }
       },
       {
         "numero": 11,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/TrBw9wYLugP"
+          "workupload": "https://workupload.com/file/TrBw9wYLugP"
         }
       },
       {
         "numero": 12,
         "downloads": {
-          "krakenfiles": "https://workupload.com/file/3XZZkHDNYwp"
+          "workupload": "https://workupload.com/file/3XZZkHDNYwp"
         }
       }
     ]
