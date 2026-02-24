@@ -1797,25 +1797,25 @@ episodios: [
       {
         "numero": 1,
         "downloads": {
-          "mediafire": "https://www.mediafire.com/file/vwfnm5g7hy2n0hw/[Absolute+Fansub]+Strike+The+Blood+V+-+01V2+[Bd].mp4/file"
+          "Keep2Share": "https://k2s.cc/file/f6b84eaf56292/%5BAbsolute%5D_Strike%20The%20Blood%20V%20-%2001%20%5BBD%5D%5B720P%5D%5BH.264%5D%5BAAC%5D%5B3D4A858F%5D.mkv"
         }
       },
       {
         "numero": 2,
         "downloads": {
-          "mediafire": "https://www.mediafire.com/file/iymlccztr5vi3am/%255BAbsolute_Fansub%255D_Strike_The_Blood_V_-_02V2_%255BBd_720P_Ita-Eng%255D.mp4/file"
+          "Keep2Share": "https://k2s.cc/file/ab720822063ec/%5BAbsolute%5D_Strike%20The%20Blood%20V%20-%2002%20%5BBD%5D%5B720P%5D%5BH.264%5D%5BAAC%5D%5B48ECAD66%5D.mp4"
         }
       },
       {
         "numero": 3,
         "downloads": {
-          "mediafire": "https://www.mediafire.com/file/dzzu309daxa85ch/[Absolute]+Strike+The+Blood+V+-+03+[Bd+720P]+[Voltando+com+Gl%C3%B3ria+II][v0].mp4/file"
+          "Keep2Share": "https://k2s.cc/file/99b0639995c42/%5BAbsolute%5D_Strike%20The%20Blood%20V%20-%2003%20%5BBD%5D%5B720P%5D%5BH.264%5D%5BAAC%5D%5B78ABE7B1%5D.mp4"
         }
       },
       {
         "numero": 4,
         "downloads": {
-          "mediafire": "https://www.mediafire.com/file/96lkm7bwo3oqi3r/[Absolute]+Strike+The+Blood+V+-+04+[Bd+720P]+[Voltando+com+Gl%C3%B3ria+II][v0].mp4/file"
+          "Keep2Share": "https://k2s.cc/file/3cfcae997ba96/%5BAbsolute%5D_Strike%20The%20Blood%20V%20-%2004%20Final%20%5BBD%5D%5B720P%5D%5BH.264%5D%5BAAC%5D%5B060128FD%5D.mkv"
         }
       }
     ]
