@@ -2,6 +2,11 @@
 
 Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 
+## [0.0.5] 22-01-2026
+
+### Novo servidor de download
+- Keep2Share
+
 ## [0.0.4] 08-02-2026
 
 ### Corrigido
@@ -28,6 +33,14 @@ Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Animes com episódios reupado
+
+## [Back Arrow] - 26-02-2026
+### Novo servidor de download
+- Keep2Share
+
+## [Strike the Blood Final] - 25-02-2026
+### Novo servidor de download
+- Keep2Share
 
 ## [Maou-sama, Retry!] - 08-02-2026
 ### Novo servidor de download
