@@ -32,19 +32,19 @@ episodios: [
     {
         numero: 1,
         downloads: {
-            pixeldrain: "https://workupload.com/file/sDXR83ETfyh"
+            workupload: "https://workupload.com/file/sDXR83ETfyh"
         }
     },
     {
         numero: 2,
         downloads: {
-            pixeldrain: "https://workupload.com/file/d4qNgcUCgS6"
+            workupload: "https://workupload.com/file/d4qNgcUCgS6"
         }
     },
     {
         numero: 3,
         downloads: {
-            pixeldrain: "https://workupload.com/file/mzKMd5tPCe6"
+            workupload: "https://workupload.com/file/mzKMd5tPCe6"
         }
     }
 ],
