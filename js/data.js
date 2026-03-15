@@ -1,5 +1,56 @@
 const animes = [
-  {
+ 
+ {
+id: 33,
+titulo: " Jigoku Sensei Nube OVA",
+imagem: "img/id33/id33capa.webp",
+tags: ["Ação", "Comédia", "Demônio", "Escolar", "Shounen", "Sobrenatural", "Terror"],
+lancamento: "1999",
+genero: "Ação, Comédia, Demônio, Escolar, Shounen, Sobrenatural, Terror",
+episodiosTotal: 3,
+status: "Finalizado",
+sinopse: "Nube luta contra um demônio que reside dentro de paredes, enfrenta um jovem espírito que quer sua gaita de volta, e no final ele deve lutar contra um poderoso demônio chamado Zekki - irmão de Baki, demônio que reside dentro de Nueno.",
+trailerUrl: "",
+adicionadoEm: "14 de março de 2026",
+estudio: "Toei Animation",
+siteOficial: "",
+video: "x264 10Bit",
+audio: "AAC",
+resolucao: "480p",
+legendas: "HardSub",
+scriptOriginal: "",
+form_url: "",
+entry_nome: "",
+entry_comentario: "",
+csv_url: "",
+screenshots: [
+    "img/id33/shot1.webp",
+    "img/id33/shot2.webp",
+    "img/id33/shot3.webp",
+],
+episodios: [
+    {
+        numero: 1,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/sDXR83ETfyh"
+        }
+    },
+    {
+        numero: 2,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/d4qNgcUCgS6"
+        }
+    },
+    {
+        numero: 3,
+        downloads: {
+            pixeldrain: "https://workupload.com/file/mzKMd5tPCe6"
+        }
+    }
+],
+},
+
+{
 id: 32,
 titulo: " Hentatsu",
 imagem: "img/id32/id32capa.webp",
