@@ -1,6 +1,18 @@
 const posts = [
    
-  
+  {
+    "id": 9989,
+    "title": "Jigoku Sensei Nube OVAs - Completo [DVD]",
+    "link": "contentpost.html?id=9989",
+    "thumbnail": "img/PostsIMG/absolute-img-postId-9989.webp",
+    "summary": "Episódios disponíveis na página do projeto.",
+    "author": "AbsoluteSUB",
+    "date": "03-14-2025",
+    "animeId": 33,
+    "fullContent": "<p>Episódios disponíveis na página do projeto.</p><p>Aviso: Retraducao dos episódios.</p>"
+  },
+
+
     {
     "id": 9990,
     "title": "Asatir 2 – Mirai no Mukashi Banashi - 07 ate 13",
