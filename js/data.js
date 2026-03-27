@@ -1,6 +1,62 @@
 const animes = [
  
  {
+id: 34,
+titulo: "Mini Yuri",
+imagem: "img/id34/id34capa.webp",
+tags: ["Comédia", "Escolar", "Shoujo Ai", "Slice of Life"],
+lancamento: "2019",
+genero: "Comédia, Escolar, Shoujo Ai, Slice of Life",
+episodiosTotal: 4,
+status: "Finalizado",
+sinopse: "Curtas lançados na web, apresentando o elenco como mini personagens.",
+trailerUrl: "https://www.youtube.com/embed/7yJIiLU9rmc",
+adicionadoEm: "27 de março de 2026",
+estudio: "DMM.futureworks, W-Toon Studio",
+siteOficial: "https://yuruyuri.com/miniyuri/",
+video: "x264 10Bit",
+audio: "AAC",
+resolucao: "1080p",
+legendas: "HardSub",
+scriptOriginal: "AtlasSubbed",
+form_url: "",
+entry_nome: "",
+entry_comentario: "",
+csv_url: "",
+screenshots: [
+    "img/id34/shot1.webp",
+    "img/id34/shot2.webp",
+    "img/id34/shot3.webp",
+],
+episodios: [
+    {
+        numero: 1,
+        downloads: {
+            workupload: "https://workupload.com/file/T3TwrexKZsd"
+        }
+    },
+    {
+        numero: 2,
+        downloads: {
+            workupload: "https://workupload.com/file/pUMCbKzVXAN"
+        }
+    },
+    {
+        numero: 3,
+        downloads: {
+            workupload: "https://workupload.com/file/dE5ZfZk4Yhs"
+        }
+    },
+    {
+        numero: 4,
+        downloads: {
+            workupload: "https://workupload.com/file/C3xX2JkWm4z"
+        }
+    }
+],
+},
+
+{
 id: 33,
 titulo: " Jigoku Sensei Nube OVA",
 imagem: "img/id33/id33capa.webp",

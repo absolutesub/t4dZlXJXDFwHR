@@ -1,5 +1,18 @@
 const posts = [
    
+  
+  {
+    "id": 9988,
+    "title": "Mini Yuri - Completo",
+    "link": "contentpost.html?id=9988",
+    "thumbnail": "img/PostsIMG/absolute-img-postId-9988.webp",
+    "summary": "Episódios disponíveis na página do projeto.",
+    "author": "AbsoluteSUB",
+    "date": "03-27-2025",
+    "animeId": 34,
+    "fullContent": "<p>Episódios disponíveis na página do projeto.</p><p>Aviso: Reupados os episódios.</p>"
+  },
+  
   {
     "id": 9989,
     "title": "Jigoku Sensei Nube OVAs - Completo [DVD]",
