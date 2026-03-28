@@ -2,6 +2,9 @@
 
 Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 
+## [0.0.6] 28-03-2026
+- Bugs Fix no site [0.2v]
+
 ## [0.0.5] 22-01-2026
 
 ### Novo servidor de download
@@ -25,7 +28,7 @@ Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 
 ## [0.0.1] - 30-12-2025
 ### Corrigido
-- Bugs no site Fix
+- Bugs Fix no site [0.1v]
 ### Adicionado
 - Novo servidor de downloads workupload
 
