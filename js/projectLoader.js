@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 ${episodiosAtuais}/${anime.episodiosTotal}
                             </div>
                         </div>
-                        <a href="/anime.html?id=${anime.id}" class="project-link">Acessar página do projeto</a>
+                        <a href="anime.html?id=${anime.id}" class="project-link">Acessar página do projeto</a>
                     </div>
                 `;
             });

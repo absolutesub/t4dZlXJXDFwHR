@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Footer mobile inserido');
     }
 
-    if (!footerDesktop && !footerMobile) {
+    if (!footerPlaceholder && !footerMobile) {
         console.warn('Nenhum dos containers de footer encontrados!');
     }
 });

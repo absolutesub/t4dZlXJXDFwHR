@@ -1,0 +1,8 @@
+{
+  "name": "Absolute Fansub",
+  "short_name": "Absolute",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1997d3",
+  "theme_color": "#1997d3"
+}
