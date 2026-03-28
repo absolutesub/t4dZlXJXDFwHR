@@ -32,7 +32,11 @@ Todos os marcos notáveis deste projeto serão documentados neste arquivo.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Animes com episódios reupado
+# Animes com episódios reupado ou adicionado
+
+## [Mini Yuri] - 27-03-2026
+
+## [Jigoku Sensei Nube OVA] - 14-03-2026
 
 ## [Back Arrow] - 26-02-2026
 ### Novo servidor de download
