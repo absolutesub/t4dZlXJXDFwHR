@@ -32,7 +32,7 @@ episodios: [
     {
         numero: 1,
         downloads: {
-            Workupload: "https://workupload.com/file/QseCMyAkXzW"
+            workupload: "https://workupload.com/file/QseCMyAkXzW"
         }
     }
 ],
