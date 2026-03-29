@@ -4,7 +4,7 @@ const posts = [
     "id": 9987,
     "title": "Mini Yuri - Completo",
     "link": "contentpost.html?id=9987",
-    "thumbnail": "img/PostsIMG/absolute-img-postId-9988.webp",
+    "thumbnail": "img/PostsIMG/absolute-img-postId-9987.webp",
     "summary": "Episódios disponíveis na página do projeto.",
     "author": "kaneki",
     "date": "03-28-2026",
