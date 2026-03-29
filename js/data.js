@@ -1,6 +1,44 @@
 const animes = [
  
- {
+{
+id: 35,
+titulo: "Null Peta: Doki♥ Nurunuru Petapeta! Mizugi-darake no Oneechan Taikai!",
+imagem: "img/id35/id35capa.webp",
+tags: ["Comédia", "Sci-Fi."],
+lancamento: "2020",
+genero: "Comédia, Sci-Fi.",
+episodiosTotal: 1,
+status: "Finalizado",
+sinopse: "Episódio adicional presente no BD/DVD.",
+trailerUrl: "https://www.youtube-nocookie.com/embed/HmM2xMoMf4U?enablejsapi=1&wmode=opaque&autoplay=1",
+adicionadoEm: "28 de março de 2026",
+estudio: "Shin-Ei Animation.",
+siteOficial: "https://nullpeta.com/",
+video: "x264 10Bit",
+audio: "AAC",
+resolucao: "1080p",
+legendas: "HardSub",
+scriptOriginal: "Null-Subs",
+form_url: "",
+entry_nome: "",
+entry_comentario: "",
+csv_url: "",
+screenshots: [
+    "img/id35/shot1.webp",
+    "img/id35/shot2.webp",
+    "img/id35/shot3.webp",
+],
+episodios: [
+    {
+        numero: 1,
+        downloads: {
+            Workupload: "https://workupload.com/file/QseCMyAkXzW"
+        }
+    }
+],
+},
+
+{
 id: 34,
 titulo: "Mini Yuri",
 imagem: "img/id34/id34capa.webp",

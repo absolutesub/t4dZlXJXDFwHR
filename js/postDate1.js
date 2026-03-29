@@ -1,6 +1,17 @@
 const posts = [
    
-  
+    {
+    "id": 9987,
+    "title": "Mini Yuri - Completo",
+    "link": "contentpost.html?id=9987",
+    "thumbnail": "img/PostsIMG/absolute-img-postId-9988.webp",
+    "summary": "Episódios disponíveis na página do projeto.",
+    "author": "kaneki",
+    "date": "03-28-2026",
+    "animeId": 35,
+    "fullContent": "<p>Episódios disponíveis na página do projeto.</p>"
+  },
+
   {
     "id": 9988,
     "title": "Mini Yuri - Completo",
@@ -8,7 +19,7 @@ const posts = [
     "thumbnail": "img/PostsIMG/absolute-img-postId-9988.webp",
     "summary": "Episódios disponíveis na página do projeto.",
     "author": "AbsoluteSUB",
-    "date": "03-27-2025",
+    "date": "03-27-2026",
     "animeId": 34,
     "fullContent": "<p>Episódios disponíveis na página do projeto.</p><p>Aviso: Reupados os episódios.</p>"
   },
@@ -20,7 +31,7 @@ const posts = [
     "thumbnail": "img/PostsIMG/absolute-img-postId-9989.webp",
     "summary": "Episódios disponíveis na página do projeto.",
     "author": "AbsoluteSUB",
-    "date": "03-14-2025",
+    "date": "03-14-2026",
     "animeId": 33,
     "fullContent": "<p>Episódios disponíveis na página do projeto.</p><p>Aviso: Retraducao dos episódios.</p>"
   },
