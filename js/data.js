@@ -1,5 +1,35 @@
 const animes = [
- 
+{
+id: 36,
+titulo: "Yozakura-san Chi no Daisakusen 2nd Season",
+imagem: "img/id36/id36capa.webp",
+tags: ["Ação", "Comédia"],
+lancamento: "2026",
+genero: "Ação, Comédia",
+episodiosTotal: 0,
+status: "Em andamento",
+sinopse: "Segunda temporada de Yozakura-san Chi no Daisakusen.",
+trailerUrl: "https://www.youtube.com/watch?v=dirydQCBa6o",
+adicionadoEm: "12 de abril de 2026",
+estudio: "SILVER LINK..",
+siteOficial: "https://mission-yozakura-family.com/",
+video: "x264 10Bit",
+audio: "AAC",
+resolucao: "1080p",
+legendas: "HardSub",
+scriptOriginal: "[Erai-raws",
+form_url: "",
+entry_nome: "",
+entry_comentario: "",
+csv_url: "",
+screenshots: [
+    "img/id36/shot1.webp",
+    "img/id36/shot2.webp",
+    "img/id36/shot3.webp",
+],
+episodios: [],
+},
+
 {
 id: 35,
 titulo: "Null Peta: Doki♥ Nurunuru Petapeta! Mizugi-darake no Oneechan Taikai!",
@@ -35,113 +65,7 @@ episodios: [
             workupload: "https://workupload.com/file/QseCMyAkXzW"
         }
     }
-],
-},
-
-{
-id: 34,
-titulo: "Mini Yuri",
-imagem: "img/id34/id34capa.webp",
-tags: ["Comédia", "Escolar", "Shoujo Ai", "Slice of Life"],
-lancamento: "2019",
-genero: "Comédia, Escolar, Shoujo Ai, Slice of Life",
-episodiosTotal: 4,
-status: "Finalizado",
-sinopse: "Curtas lançados na web, apresentando o elenco como mini personagens.",
-trailerUrl: "https://www.youtube.com/embed/7yJIiLU9rmc",
-adicionadoEm: "27 de março de 2026",
-estudio: "DMM.futureworks, W-Toon Studio",
-siteOficial: "https://yuruyuri.com/miniyuri/",
-video: "x264 10Bit",
-audio: "AAC",
-resolucao: "1080p",
-legendas: "HardSub",
-scriptOriginal: "AtlasSubbed",
-form_url: "",
-entry_nome: "",
-entry_comentario: "",
-csv_url: "",
-screenshots: [
-    "img/id34/shot1.webp",
-    "img/id34/shot2.webp",
-    "img/id34/shot3.webp",
-],
-episodios: [
-    {
-        numero: 1,
-        downloads: {
-            workupload: "https://workupload.com/file/T3TwrexKZsd"
-        }
-    },
-    {
-        numero: 2,
-        downloads: {
-            workupload: "https://workupload.com/file/pUMCbKzVXAN"
-        }
-    },
-    {
-        numero: 3,
-        downloads: {
-            workupload: "https://workupload.com/file/dE5ZfZk4Yhs"
-        }
-    },
-    {
-        numero: 4,
-        downloads: {
-            workupload: "https://workupload.com/file/C3xX2JkWm4z"
-        }
-    }
-],
-},
-
-{
-id: 33,
-titulo: " Jigoku Sensei Nube OVA",
-imagem: "img/id33/id33capa.webp",
-tags: ["Ação", "Comédia", "Demônio", "Escolar", "Shounen", "Sobrenatural", "Terror"],
-lancamento: "1999",
-genero: "Ação, Comédia, Demônio, Escolar, Shounen, Sobrenatural, Terror",
-episodiosTotal: 3,
-status: "Finalizado",
-sinopse: "Nube luta contra um demônio que reside dentro de paredes, enfrenta um jovem espírito que quer sua gaita de volta, e no final ele deve lutar contra um poderoso demônio chamado Zekki - irmão de Baki, demônio que reside dentro de Nueno.",
-trailerUrl: "https://www.youtube.com/embed/ohOS-U-8VPQ",
-adicionadoEm: "14 de março de 2026",
-estudio: "Toei Animation",
-siteOficial: "",
-video: "x264 10Bit",
-audio: "AAC",
-resolucao: "480p",
-legendas: "HardSub",
-scriptOriginal: "",
-form_url: "",
-entry_nome: "",
-entry_comentario: "",
-csv_url: "",
-screenshots: [
-    "img/id33/shot1.webp",
-    "img/id33/shot2.webp",
-    "img/id33/shot3.webp",
-],
-episodios: [
-    {
-        numero: 1,
-        downloads: {
-            workupload: "https://workupload.com/file/sDXR83ETfyh"
-        }
-    },
-    {
-        numero: 2,
-        downloads: {
-            workupload: "https://workupload.com/file/d4qNgcUCgS6"
-        }
-    },
-    {
-        numero: 3,
-        downloads: {
-            workupload: "https://workupload.com/file/mzKMd5tPCe6"
-        }
-    }
-],
+]
 },
 
 {
