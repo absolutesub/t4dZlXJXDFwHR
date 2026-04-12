@@ -1,77 +1,84 @@
-/**
- * Gerencia o header e funcionalidades relacionadas
- */
+// Aguarda o carregamento completo do DOM (estrutura HTML da página)
 document.addEventListener('DOMContentLoaded', () => {
-    try {
-        // ===================================
-        // DROPDOWNS (Menus suspensos interativos)
-        // ===================================
 
-        const dropdowns = document.querySelectorAll('.dropdown');
+    // ===================================
+    // DROPDOWNS (Menus suspensos interativos)
+    // ===================================
 
-        dropdowns.forEach(dropdown => {
-            try {
-                const dropbtn = dropdown.querySelector('.dropbtn');
-                const dropdownContent = dropdown.querySelector('.dropdown-content');
+    // Seleciona todos os elementos com a classe .dropdown
+    // Cada .dropdown representa um menu com botão e conteúdo oculto
+    const dropdowns = document.querySelectorAll('.dropdown');
 
-                if (dropbtn && dropdownContent) {
-                    dropbtn.addEventListener('click', (event) => {
-                        event.preventDefault();
+    // Para cada dropdown encontrado na página
+    dropdowns.forEach(dropdown => {
+        // Seleciona o botão que, ao ser clicado, abre o menu
+        const dropbtn = dropdown.querySelector('.dropbtn');
 
-                        // Fecha todos os outros dropdowns
-                        document.querySelectorAll('.dropdown-content').forEach(content => {
-                            if (content !== dropdownContent && content.style.display === 'block') {
-                                content.style.display = 'none';
-                            }
-                        });
+        // Seleciona o conteúdo do dropdown (que será exibido ou ocultado)
+        const dropdownContent = dropdown.querySelector('.dropdown-content');
 
-                        // Alterna visibilidade
-                        dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
-                    });
-                }
-            } catch (error) {
-                console.error('Error setting up dropdown:', error);
-            }
-        });
+        // Garante que tanto o botão quanto o conteúdo existem antes de configurar o comportamento
+        if (dropbtn && dropdownContent) {
+            // Adiciona o evento de clique no botão do dropdown
+            dropbtn.addEventListener('click', (event) => {
+                event.preventDefault(); // Evita o comportamento padrão do botão (como seguir um link)
 
-        // ===================================
-        // Fechar dropdowns ao clicar fora deles
-        // ===================================
-
-        window.addEventListener('click', (event) => {
-            if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
+                // Fecha todos os outros dropdowns que estiverem abertos
                 document.querySelectorAll('.dropdown-content').forEach(content => {
-                    content.style.display = 'none';
+                    // Se o conteúdo for diferente do atual e estiver visível, será escondido
+                    if (content !== dropdownContent && content.style.display === 'block') {
+                        content.style.display = 'none';
+                    }
                 });
-            }
-        });
 
-        // ===================================
-        // Criar o header em todas as paginas
-        // ===================================
+                // Alterna a visibilidade do dropdown clicado:
+                // Se estiver visível, oculta; se estiver oculto, exibe
+                dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+            });
+        }
+    });
 
-        const headerHTML = `
+    // ===================================
+    // Fechar dropdowns ao clicar fora deles
+    // ===================================
+
+    // Adiciona um evento global ao clicar em qualquer parte da janela
+    window.addEventListener('click', (event) => {
+        // Verifica se o clique foi fora de qualquer botão de dropdown e fora do conteúdo também
+        if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
+            // Se o clique foi fora, fecha todos os dropdowns abertos
+            document.querySelectorAll('.dropdown-content').forEach(content => {
+                content.style.display = 'none';
+            });
+        }
+    });
+
+
+    // ===================================
+    // Criar o header em todas a páginas
+    // ===================================
+    const headerHTML = `
         <header class="main-header">
             <div class="header-hero">
-                <div class="background-layer"></div> <img class="logo-overlay" src="img/assets/absolute-banner.png" alt="Absolute Fansub Banner">
+                <div class="background-layer"></div> <img class="logo-overlay" src="img/assets/absolute-banner.png" alt="banner">
             </div>
             <img class="img-header-mob" src="img/assets/absolute-banner.jpg"
-                class="w-100 img-responsive d-none d-sm-block" alt="Absolute Fansub Mobile Banner" style="width: 100%; height: auto;">
+                class="w-100 img-responsive d-none d-sm-block" alt="/" style="width: 100%; height: auto;">
             <div class="navbar-container">
-                <button class="hamburger" id="hamburger-btn" aria-label="Abrir menu">
+                            <button class="hamburger" id="hamburger-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                        fill="#FFFFFF">
+                        fill="#FFFFFF" style="transform:">
                         <path
                             d="M140-254.62v-59.99h680v59.99H140ZM140-450v-60h680v60H140Zm0-195.39v-59.99h680v59.99H140Z">
                         </path>
                     </svg>
                 </button>
                 <nav class="main-nav" id="mobile-nav">
-                    <button class="close-menu" id="close-btn" aria-label="Fechar menu">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF" style="scale: 2;">
-                            <path d="M274-274.46 432.46-433 274-591.54 318.46-636 477-477.54 635.54-636 680-591.54 521.54-433 680-274.46 635.54-230 477-388.46 318.46-230 274-274.46Z"/>
-                        </svg>
-                    </button>
+                    <button class="close-menu" id="close-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF" style="scale: 2;">
+            <path d="M274-274.46 432.46-433 274-591.54 318.46-636 477-477.54 635.54-636 680-591.54 521.54-433 680-274.46 635.54-230 477-388.46 318.46-230 274-274.46Z"/>
+        </svg>
+    </button>
                     <ul>
                         <li>
                             <a href="index.html">
@@ -80,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                         <path
                                             d="M240-200h133.85v-237.69h212.3V-200H720v-360L480-740.77 240-560v360Zm-60 60v-450l300-225.77L780-590v450H526.15v-237.69h-92.3V-140H180Zm300-330.38Z" />
                                     </svg></span>
-                                INICIO
+                                INÍCIO
                             </a>
                         </li>
                         <li class="dropdown">
@@ -119,9 +126,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     </ul>
                 </nav>
 
+
                 <div class="search-bar-nav">
-                    <input type="text" id="search-nav" placeholder="Digite sua pesquisa" aria-label="Campo de busca">
-                    <button id="search-button-nav" aria-label="Executar busca"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                    <input type="text" id="search-nav" placeholder="Digite sua pesquisa">
+                    <button id="search-button-nav"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
                             viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
                             <path
                                 d="M781.69-136.92 530.46-388.16q-30 24.77-69 38.77-39 14-80.69 14-102.55 0-173.58-71.01-71.03-71.01-71.03-173.54 0-102.52 71.01-173.6 71.01-71.07 173.54-71.07 102.52 0 173.6 71.03 71.07 71.03 71.07 173.58 0 42.85-14.38 81.85-14.39 39-38.39 67.84l251.23 251.23-42.15 42.16ZM380.77-395.38q77.31 0 130.96-53.66 53.66-53.65 53.66-130.96t-53.66-130.96q-53.65-53.66-130.96-53.66t-130.96 53.66Q196.15-657.31 196.15-580t53.66 130.96q53.65 53.66 130.96 53.66Z" />
@@ -129,15 +137,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
         </header>
-        `;
+    `;
 
-        const headerPlaceholder = document.getElementById('header-placeholder');
-        if (headerPlaceholder) {
-            headerPlaceholder.innerHTML = headerHTML;
-        } else {
-            console.warn('Header placeholder not found');
-        }
-    } catch (error) {
-        console.error('Error initializing header:', error);
+    // Encontra o elemento onde o cabeçalho será inserido
+    const headerPlaceholder = document.getElementById('header-placeholder');
+    if (headerPlaceholder) {
+        headerPlaceholder.innerHTML = headerHTML;
     }
 });

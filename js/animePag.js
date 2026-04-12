@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
         FORM_URL: anime.form_url,
         ENTRY_NOME: anime.entry_nome,
         ENTRY_COMENTARIO: anime.entry_comentario,
-        ENTRY_PARENT_ID: anime.entry_parent_id || '',
+        ENTRY_PARENT_ID: anime.entry_parent_id,
         CSV_URL: anime.csv_url
     };
 

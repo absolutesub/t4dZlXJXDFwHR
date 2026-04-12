@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 </div>
 
-                <a href="anime.html?id=${anime.id}" class="btn-acessar">Acessar página do projeto</a>
+                <a href="/anime.html?id=${anime.id}" class="btn-acessar">Acessar página do projeto</a>
             </div>
         </div>
     `;

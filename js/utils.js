@@ -49,6 +49,8 @@ function isValidEmail(email) {
 function initLazyLoading() {
     const images = document.querySelectorAll('img[data-src]');
     
+    if (!images.length) return;
+
     const imageObserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -280,25 +282,8 @@ async function shareContent(title, text, url) {
  * Inicializa utilitários quando DOM estiver pronto
  */
 document.addEventListener('DOMContentLoaded', () => {
-    initTheme();
     initLazyLoading();
-    
-    // Remove loading screen após página carregar
-    window.addEventListener('load', () => {
-        setTimeout(hideLoading, 500);
-    });
 });
-
-// ==================== TEMA ====================
-
-/**
- * Inicializa tema do site
- */
-function initTheme() {
-    // Verificar se há tema salvo no localStorage
-    const savedTheme = localStorage.getItem('theme') || 'dark';
-    document.documentElement.setAttribute('data-theme', savedTheme);
-}
 
 // Exportar funções para uso global
 window.AbsoluteUtils = {
@@ -316,6 +301,5 @@ window.AbsoluteUtils = {
     smoothScrollTo,
     showLoading,
     hideLoading,
-    shareContent,
-    initTheme
+    shareContent
 };
