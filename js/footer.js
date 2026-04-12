@@ -40,3 +40,4 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Error rendering footer:', error);
     }
 });
+
