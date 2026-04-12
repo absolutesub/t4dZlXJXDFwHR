@@ -289,6 +289,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// ==================== TEMA ====================
+
+/**
+ * Inicializa tema do site
+ */
+function initTheme() {
+    // Verificar se há tema salvo no localStorage
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+}
+
 // Exportar funções para uso global
 window.AbsoluteUtils = {
     sanitizeHTML,
@@ -305,5 +316,6 @@ window.AbsoluteUtils = {
     smoothScrollTo,
     showLoading,
     hideLoading,
-    shareContent
+    shareContent,
+    initTheme
 };
