@@ -1,5 +1,41 @@
 const animes = [
 {
+id: 37,
+titulo: " Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta (TV Special)",
+imagem: "img/id37/id37capa.webp",
+tags: ["Aventura", "Ação", "Escolar", "Fantasia", "Isekai."],
+lancamento: "2026",
+genero: "Aventura, Ação, Escolar, Fantasia, Isekai.",
+episodiosTotal: 1,
+status: "Em andamento",
+sinopse: "Especial de TV para Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta",
+trailerUrl: "https://www.youtube.com/watch?v=SRYZgp2VliQ",
+adicionadoEm: "12 de abril de 2026",
+estudio: "Millepensee.",
+siteOficial: "https://www.iseleve.com/",
+video: "x264 10Bit",
+audio: "AAC",
+resolucao: "1080p",
+legendas: "HardSub",
+scriptOriginal: "Erai-raws",
+form_url: "",
+entry_nome: "",
+entry_comentario: "",
+csv_url: "",
+screenshots: [
+    "img/id37/shot1.webp",
+    "img/id37/shot2.webp",
+    "img/id37/shot3.webp",
+],
+episodios: [
+    {
+        numero: 1,
+        downloads: {}
+    }
+],
+},
+
+{
 id: 36,
 titulo: "Yozakura-san Chi no Daisakusen 2nd Season",
 imagem: "img/id36/id36capa.webp",
