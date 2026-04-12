@@ -20,11 +20,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const footerPlaceholder = document.getElementById('footer');
     if (footerPlaceholder) {
         footerPlaceholder.innerHTML = footerHTML;
+        console.log('Footer inserido com sucesso!');
     }
 
     const footerMobile = document.getElementById('footer-mob');
     if (footerMobile) {
         footerMobile.innerHTML = footerHTML;
+        console.log('Footer mobile inserido');
     }
 
     if (!footerPlaceholder && !footerMobile) {

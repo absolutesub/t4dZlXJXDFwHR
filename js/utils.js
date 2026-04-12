@@ -49,8 +49,6 @@ function isValidEmail(email) {
 function initLazyLoading() {
     const images = document.querySelectorAll('img[data-src]');
     
-    if (!images.length) return;
-
     const imageObserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -282,7 +280,13 @@ async function shareContent(title, text, url) {
  * Inicializa utilitários quando DOM estiver pronto
  */
 document.addEventListener('DOMContentLoaded', () => {
+    initTheme();
     initLazyLoading();
+    
+    // Remove loading screen após página carregar
+    window.addEventListener('load', () => {
+        setTimeout(hideLoading, 500);
+    });
 });
 
 // Exportar funções para uso global
