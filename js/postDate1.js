@@ -26,7 +26,7 @@ const posts = [
   
   {
     "id": 9987,
-    "title": "Mini Yuri - Completo",
+    "title": "Null Peta: Doki♥ Nurunuru Petapeta! Mizugi-darake no Oneechan Taikai! - OVA Completo",
     "link": "contentpost.html?id=9987",
     "thumbnail": "img/PostsIMG/absolute-img-postId-9987.webp",
     "summary": "Episódios disponíveis na página do projeto.",
