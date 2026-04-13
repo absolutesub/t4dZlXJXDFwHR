@@ -103,7 +103,7 @@ episodios: [
           
           numero: 1,
         downloads: {
-            workupload: "https://workupload.com/file/GAVv3aGAvwR"
+            workupload: "https://workupload.com/file/gbdgdWETZMpaGAvwR"
     }
         } 
       ],
