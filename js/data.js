@@ -1,5 +1,70 @@
 const animes = [
 {
+id: 38,
+titulo: "Marika-chan no Koukando wa Bukkowareteiru",
+imagem: "img/id38/id38capa.webp",
+tags: ["Comédia", "Romance", "Ecchi"],
+lancamento: "Primavera de 2026",
+genero: "Comédia , Romance , Ecchi",
+episodiosTotal: 8,
+status: "Em andamento",
+sinopse: "Confessar meus sentimentos à minha amiga de infância, Marika, era impossível para alguém tão impopular quanto eu. Então, fiz o que qualquer garoto desesperado faria: pedi um desejo a uma estrela cadente! Quando acordei, aquele sonho tinha se tornado realidade?! Eu conseguia ver um medidor de amor das pessoas, exatamente como em um jogo de simulação de namoro. Assim que percebi que aquilo era real e não um sonho, fui direto ver a Marika. O medidor de amor dela estava tão baixo que tinha quebrado e praticamente caído direto no inferno! Se ela me odiava tanto, por que era tão gentil?! Será que era assim que ela realmente se sentia ou…?!
+",
+trailerUrl: "https://www.youtube.com/watch?v=Ohd23eSaOaw",
+adicionadoEm: "13 de abril de 2026",
+estudio: "Studio LEO",
+siteOficial: "https://marikowa.af-original.com/",
+video: "x264 10Bit",
+audio: "AAC",
+resolucao: "1080p",
+legendas: "HardSub",
+scriptOriginal: "TokekHutan",
+form_url: "",
+entry_nome: "",
+entry_comentario: "",
+csv_url: "",
+screenshots: [
+    "img/id38/shot1.webp",
+    "img/id38/shot2.webp",
+    "img/id38/shot3.webp",
+],
+episodios: [
+    {
+        numero: 1,
+        downloads: {}
+    },
+    {
+        numero: 2,
+        downloads: {}
+    },
+    {
+        numero: 3,
+        downloads: {}
+    },
+    {
+        numero: 4,
+        downloads: {}
+    },
+    {
+        numero: 5,
+        downloads: {}
+    },
+    {
+        numero: 6,
+        downloads: {}
+    },
+    {
+        numero: 7,
+        downloads: {}
+    },
+    {
+        numero: 8,
+        downloads: {}
+    }
+],
+},
+
+{
 id: 37,
 titulo: " Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta (TV Special)",
 imagem: "img/id37/id37capa.webp",
