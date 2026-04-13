@@ -31,7 +31,9 @@ screenshots: [
 episodios: [
     {
         numero: 1,
-        downloads: {}
+        downloads: {
+            workupload: "https://workupload.com/file/GAVv3aGAvwR"
+        }
     },
     {
         numero: 2,
