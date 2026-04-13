@@ -97,7 +97,16 @@ screenshots: [
     "img/id36/shot2.webp",
     "img/id36/shot3.webp",
 ],
-episodios: [],
+episodios: [
+  
+        { 
+          
+          numero: 1,
+        downloads: {
+            workupload: "https://workupload.com/file/GAVv3aGAvwR"
+    }
+        } 
+      ],
 },
 
 {
