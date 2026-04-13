@@ -8,9 +8,8 @@ lancamento: "Primavera de 2026",
 genero: "Comédia , Romance , Ecchi",
 episodiosTotal: 8,
 status: "Em andamento",
-sinopse: "Confessar meus sentimentos à minha amiga de infância, Marika, era impossível para alguém tão impopular quanto eu. Então, fiz o que qualquer garoto desesperado faria: pedi um desejo a uma estrela cadente! Quando acordei, aquele sonho tinha se tornado realidade?! Eu conseguia ver um medidor de amor das pessoas, exatamente como em um jogo de simulação de namoro. Assim que percebi que aquilo era real e não um sonho, fui direto ver a Marika. O medidor de amor dela estava tão baixo que tinha quebrado e praticamente caído direto no inferno! Se ela me odiava tanto, por que era tão gentil?! Será que era assim que ela realmente se sentia ou…?!
-",
-trailerUrl: "https://www.youtube.com/watch?v=Ohd23eSaOaw",
+sinopse: "Confessar meus sentimentos à minha amiga de infância, Marika, era impossível para alguém tão impopular quanto eu. Então, fiz o que qualquer garoto desesperado faria: pedi um desejo a uma estrela cadente! Quando acordei, aquele sonho tinha se tornado realidade?! Eu conseguia ver um medidor de amor das pessoas, exatamente como em um jogo de simulação de namoro. Assim que percebi que aquilo era real e não um sonho, fui direto ver a Marika. O medidor de amor dela estava tão baixo que tinha quebrado e praticamente caído direto no inferno! Se ela me odiava tanto, por que era tão gentil?! Será que era assim que ela realmente se sentia ou…?!",
+trailerUrl: "https://www.youtube.com/embed/Ohd23eSaOaw",
 adicionadoEm: "13 de abril de 2026",
 estudio: "Studio LEO",
 siteOficial: "https://marikowa.af-original.com/",
@@ -64,7 +63,6 @@ episodios: [
         downloads: {}
     }
 ],
-},
 
 {
 id: 37,
