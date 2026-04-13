@@ -64,6 +64,8 @@ episodios: [
     }
 ],
 
+},
+
 {
 id: 37,
 titulo: " Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta (TV Special)",
