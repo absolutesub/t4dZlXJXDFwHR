@@ -87,7 +87,7 @@ video: "x264 10Bit",
 audio: "AAC",
 resolucao: "1080p",
 legendas: "HardSub",
-scriptOriginal: "[Erai-raws",
+scriptOriginal: "Erai-raws",
 form_url: "",
 entry_nome: "",
 entry_comentario: "",
@@ -103,7 +103,7 @@ episodios: [
           
           numero: 1,
         downloads: {
-            workupload: "https://workupload.com/file/gbdgdWETZMpaGAvwR"
+            workupload: "https://workupload.com/file/gbdgdWETZMp"
     }
         } 
       ],
