@@ -178,25 +178,25 @@ episodios: [
     {
         numero: 1,
         downloads: {
-            Workupload: "https://workupload.com/file/T3TwrexKZsd"
+            workupload: "https://workupload.com/file/T3TwrexKZsd"
         }
     },
     {
         numero: 2,
         downloads: {
-            Workupload: "https://workupload.com/file/pUMCbKzVXAN"
+            workupload: "https://workupload.com/file/pUMCbKzVXAN"
         }
     },
     {
         numero: 3,
         downloads: {
-            Workupload: "https://workupload.com/file/dE5ZfZk4Yhs"
+            workupload: "https://workupload.com/file/dE5ZfZk4Yhs"
         }
     },
     {
         numero: 4,
         downloads: {
-            Workupload: "https://workupload.com/file/C3xX2JkWm4z"
+            workupload: "https://workupload.com/file/C3xX2JkWm4z"
         }
     }
 ],
@@ -234,19 +234,19 @@ episodios: [
     {
         numero: 1,
         downloads: {
-            Workupload: "https://workupload.com/file/sDXR83ETfyh"
+            workupload: "https://workupload.com/file/sDXR83ETfyh"
         }
     },
     {
         numero: 2,
         downloads: {
-            Workupload: "https://workupload.com/file/d4qNgcUCgS6"
+            workupload: "https://workupload.com/file/d4qNgcUCgS6"
         }
     },
     {
         numero: 3,
         downloads: {
-            Workupload: "https://workupload.com/file/mzKMd5tPCe6"
+            workupload: "https://workupload.com/file/mzKMd5tPCe6"
         }
     }
 ],
