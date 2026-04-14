@@ -146,6 +146,111 @@ episodios: [
     }
 ]
 },
+{
+id: 34,
+titulo: "Mini Yuri",
+imagem: "img/id34/id34capa.webp",
+tags: ["Comédia"],
+lancamento: "2019",
+genero: " Comédia",
+episodiosTotal: 4,
+status: "Finalizado",
+sinopse: "história se passa na escola fictícia Nanamori na cidade de Takaoka no Japão. A série se centraliza no dia-a-dia das atividades realizadas no “Clube de Diversão” da escola, que tem Akari Akaza e suas amigas de infância, Kyoko Toshino, Yui Funami e Chinatsu Yoshikawa como membros.",
+trailerUrl: "https://www.youtube.com/embed/7yJIiLU9rmc",
+adicionadoEm: "14 de abril de 2026",
+estudio: "W-Toon Studio, DMM.futureworks",
+siteOficial: "http://yuruyuri.com/miniyuri/",
+video: "x264 10Bit",
+audio: "AAC",
+resolucao: "1080p",
+legendas: "HardSub",
+scriptOriginal: "AtlasSubbed",
+form_url: "",
+entry_nome: "",
+entry_comentario: "",
+csv_url: "",
+screenshots: [
+    "img/id34/shot1.webp",
+    "img/id34/shot2.webp",
+    "img/id34/shot3.webp",
+],
+episodios: [
+    {
+        numero: 1,
+        downloads: {
+            Workupload: "https://workupload.com/file/T3TwrexKZsd"
+        }
+    },
+    {
+        numero: 2,
+        downloads: {
+            Workupload: "https://workupload.com/file/pUMCbKzVXAN"
+        }
+    },
+    {
+        numero: 3,
+        downloads: {
+            Workupload: "https://workupload.com/file/dE5ZfZk4Yhs"
+        }
+    },
+    {
+        numero: 4,
+        downloads: {
+            Workupload: "https://workupload.com/file/C3xX2JkWm4z"
+        }
+    }
+],
+},
+
+{
+id: 33,
+titulo: "Jigoku Sensei Nube OVA",
+imagem: "img/id33/id33capa.webp",
+tags: ["Ação", "Comédia", "Terror", "Sobrenatural"],
+lancamento: "1999",
+genero: " Ação , Comédia , Terror , Sobrenatural",
+episodiosTotal: 3,
+status: "Finalizado",
+sinopse: "Saiei&ARR",
+trailerUrl: "https://www.youtube.com/embed/ohOS-U-8VPQ",
+adicionadoEm: "14 de abril de 2026",
+estudio: "Toei Animation",
+siteOficial: "https://www.toei-anim.co.jp/lineup/ova/nube/",
+video: "x264 10Bit",
+audio: "AAC",
+resolucao: "480p",
+legendas: "HardSub",
+scriptOriginal: "AtlasSubbed",
+form_url: "",
+entry_nome: "",
+entry_comentario: "",
+csv_url: "",
+screenshots: [
+    "img/id33/shot1.webp",
+    "img/id33/shot2.webp",
+    "img/id33/shot3.webp",
+],
+episodios: [
+    {
+        numero: 1,
+        downloads: {
+            Workupload: "https://workupload.com/file/sDXR83ETfyh"
+        }
+    },
+    {
+        numero: 2,
+        downloads: {
+            Workupload: "https://workupload.com/file/d4qNgcUCgS6"
+        }
+    },
+    {
+        numero: 3,
+        downloads: {
+            Workupload: "https://workupload.com/file/mzKMd5tPCe6"
+        }
+    }
+],
+},
 
 {
 id: 32,
