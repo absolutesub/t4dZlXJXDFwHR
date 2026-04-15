@@ -1,5 +1,17 @@
 const posts = [
-   
+  
+  {
+    "id": 9984,
+    "title": "Nu Wushen de Canzhuo - Completo",
+    "link": "contentpost.html?id=9984",
+    "thumbnail": "img/PostsIMG/absolute-img-postId-9984.webp",
+    "summary": "Episódios disponíveis na página do projeto.",
+    "author": "kaneki",
+    "date": "04-15-2026",
+    "animeId": 39,
+    "fullContent": "<p>Episódios disponíveis na página do projeto.</p>"
+  },
+  
    {
     "id": 9985,
     "title": "Yozakura-san Chi no Daisakusen 2nd Season - Ep 01vO",

@@ -1,4 +1,97 @@
 const animes = [
+
+{
+id: 39,
+titulo: "Nu Wushen de Canzhuo",
+imagem: "img/id39/id39capa.webp",
+tags: ["Comédia", "Slice of Life."],
+lancamento: "2019",
+genero: "Comédia, Slice of Life.",
+episodiosTotal: 10,
+status: "Finalizado",
+sinopse: "[Parceria : Disboard] Junte-se à mesa com as Valquírias para um banquete de dar água na boca e lembranças emocionantes.",
+trailerUrl: "https://www.youtube.com/embed/prEb11HgWVo",
+adicionadoEm: "15 de abril de 2026",
+estudio: "Blade, Thundray.",
+siteOficial: "https://www.bilibili.com/bangumi/media/md28221384/",
+video: "x264 10Bit",
+audio: "AAC",
+resolucao: "1080p",
+legendas: "HardSub",
+scriptOriginal: "Anime-Releases",
+form_url: "",
+entry_nome: "",
+entry_comentario: "",
+csv_url: "",
+screenshots: [
+    "img/id39/shot1.webp",
+    "img/id39/shot2.webp",
+    "img/id39/shot3.webp",
+],
+episodios: [
+    {
+        numero: 1,
+        downloads: {
+            workupload: "https://workupload.com/file/vTpx3mGhFeQ"
+        }
+    },
+    {
+        numero: 2,
+        downloads: {
+            workupload: "https://workupload.com/file/gPEdMpm62aF"
+        }
+    },
+    {
+        numero: 3,
+        downloads: {
+            workupload: "https://workupload.com/file/pmZUJFJhyF3"
+        }
+    },
+    {
+        numero: 4,
+        downloads: {
+            workupload: "https://workupload.com/file/vMCaAQRaQt5"
+        }
+    },
+    {
+        numero: 5,
+        downloads: {
+            workupload: "https://workupload.com/file/YSPc7hWBpXn"
+        }
+    },
+    {
+        numero: 6,
+        downloads: {
+            workupload: "https://workupload.com/file/xgfphUe4KEC"
+        }
+    },
+    {
+        numero: 7,
+        downloads: {
+            workupload: "https://workupload.com/file/keE4waxFJLL"
+        }
+    },
+    {
+        numero: 8,
+        downloads: {
+            workupload: "https://workupload.com/file/Jrmb4x7cwXJ"
+        }
+    },
+    {
+        numero: 9,
+        downloads: {
+            workupload: "https://workupload.com/file/GkUAKr82drB"
+        }
+    },
+    {
+        numero: 10,
+        downloads: {
+            workupload: "https://workupload.com/file/DMtAGhxSS4q"
+        }
+    }
+],
+},
+
 {
 id: 38,
 titulo: "Marika-chan no Koukando wa Bukkowareteiru",
