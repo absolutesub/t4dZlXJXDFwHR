@@ -1,5 +1,18 @@
 const posts = [
   
+  
+  {
+    "id": 9983,
+    "title": "Marika-chan no Koukando wa Bukkowareteiru - Ep 02v0",
+    "link": "contentpost.html?id=9983",
+    "thumbnail": "img/PostsIMG/absolute-img-postId-9983.webp",
+    "summary": "Episódios disponíveis na página do projeto.",
+    "author": "kaneki",
+    "date": "04-17-2026",
+    "animeId": 38,
+    "fullContent": "<p>Episódios disponíveis na página do projeto.</p>"
+  },
+
   {
     "id": 9984,
     "title": "Nu Wushen de Canzhuo - Completo",

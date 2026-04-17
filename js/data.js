@@ -127,6 +127,12 @@ episodios: [
             workupload: "https://workupload.com/file/GAVv3aGAvwR"
         }
     },
+     {
+        numero: 2,
+        downloads: {
+            workupload: "https://workupload.com/file/gDKe94AMBvs"
+        }
+    },
 ],
 
 },
