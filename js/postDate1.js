@@ -1,6 +1,17 @@
 const posts = [
   
-  
+   {
+    "id": 9985,
+    "title": "Yozakura-san Chi no Daisakusen 2nd Season - Ep 02vO",
+    "link": "contentpost.html?id=9982",
+    "thumbnail": "img/PostsIMG/absolute-img-postId-9982.webp",
+    "summary": "Episódios disponíveis na página do projeto.",
+    "author": "kaneki",
+    "date": "04-19-2026",
+    "animeId": 36,
+    "fullContent": "<p>Episódios disponíveis na página do projeto.</p>"
+  },
+
   {
     "id": 9983,
     "title": "Marika-chan no Koukando wa Bukkowareteiru - Ep 02v0",

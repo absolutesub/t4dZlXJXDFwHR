@@ -204,7 +204,13 @@ episodios: [
         downloads: {
             workupload: "https://workupload.com/file/gbdgdWETZMp"
     }
-        } 
+        },
+        {
+        numero: 2,
+        downloads: {
+            workupload: "https://workupload.com/file/XJGzQpBUNSK"
+        }
+    }, 
       ],
 },
 
@@ -242,7 +248,8 @@ episodios: [
         downloads: {
             workupload: "https://workupload.com/file/QseCMyAkXzW"
         }
-    }
+    },
+    
 ]
 },
 {
